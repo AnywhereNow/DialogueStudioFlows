@@ -1,2801 +1,2520 @@
 [
-  {
-    "id": "76f62fdf.bea37",
-    "type": "tab",
-    "label": "GDP",
-    "disabled": false,
-    "info": ""
-  },
-  {
-    "id": "31a94a9c.154a76",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Re-open conversation",
-    "style": {
-      "label": true
+    {
+        "id": "709e0f0ed058ef22",
+        "type": "tab",
+        "label": "GDP",
+        "disabled": false,
+        "info": ""
     },
-    "nodes": [
-      "d2adf5bc.8367f8",
-      "360cbdab.0f5d82",
-      "970340e7.adf21",
-      "7d31b1b8.ff06f",
-      "866e82d9.319e8",
-      "15c67fde.1c9be",
-      "493a39b5.dbe088",
-      "8a14284b.313a28",
-      "4d18fa01.2c8a04"
-    ],
-    "x": 1534,
-    "y": 919,
-    "w": 832,
-    "h": 202
-  },
-  {
-    "id": "591c322d.92a9fc",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Send Reply",
-    "style": {
-      "label": true
+    {
+        "id": "39441a8b92d10cf3",
+        "type": "group",
+        "z": "709e0f0ed058ef22",
+        "name": "Re-open conversation",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "09bd2eb040d41436",
+            "3a8ee053791a0bc8",
+            "556d7d0138f9e577",
+            "2edb7d821bf27558",
+            "1c92dce130511bf2",
+            "d74e7d411a056e2e",
+            "0a601a45f1b781da",
+            "03f044668ed834bf",
+            "87cae2efe8a5ef01",
+            "89ccaed62cd97f38",
+            "a8fc37ee72dbcc9f",
+            "e35f128403a802db",
+            "e5b8aba7c552ca73"
+        ],
+        "x": 1294,
+        "y": 1039,
+        "w": 1032,
+        "h": 322
     },
-    "nodes": [
-      "686c174c.c6ae28",
-      "e3ce61a5.98ea6",
-      "a6902e5a.bdaa8",
-      "b3cbb7ed.77e968",
-      "d9126f98.bae6e",
-      "f8be8d24.d6018",
-      "a022a58.53add58"
-    ],
-    "x": 1334,
-    "y": 1419,
-    "w": 952,
-    "h": 142
-  },
-  {
-    "id": "7137f0d0.adc77",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Clear Dialogue from Memory",
-    "style": {
-      "label": true
+    {
+        "id": "6fe340128a27a49a",
+        "type": "group",
+        "z": "709e0f0ed058ef22",
+        "name": "Clear Dialogue from Memory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1cb80e34a6b221e4",
+            "5d34d26c86c7b622"
+        ],
+        "x": 94,
+        "y": 339,
+        "w": 582,
+        "h": 82
     },
-    "nodes": [
-      "d680afd0.57261",
-      "6b6bc4ad.1575bc"
-    ],
-    "x": 234,
-    "y": 519,
-    "w": 582,
-    "h": 82
-  },
-  {
-    "id": "76692953.c67488",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Disconnect conversation",
-    "style": {
-      "label": true
+    {
+        "id": "90389f0bc234cc0f",
+        "type": "group",
+        "z": "709e0f0ed058ef22",
+        "name": "Disconnect conversation",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3b0e8969558c0e0a",
+            "0e4baaa83eb95828",
+            "8761738056e65c4c",
+            "264d858074202c90",
+            "2cbee70541e3ba4e"
+        ],
+        "x": 1294,
+        "y": 899,
+        "w": 992,
+        "h": 122
     },
-    "nodes": [
-      "3d0caef9.ab6952",
-      "29d9a0e3.84fb7",
-      "b531ff44.14c47"
-    ],
-    "x": 1554,
-    "y": 779,
-    "w": 752,
-    "h": 82
-  },
-  {
-    "id": "8b42dc9d.f8fdd",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Get Dialogue Messages",
-    "style": {
-      "label": true
+    {
+        "id": "79932d60914709f3",
+        "type": "group",
+        "z": "709e0f0ed058ef22",
+        "name": "Get Dialogue Messages",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9e61ae2dcf129d6a",
+            "73f4afb61932cb2f",
+            "96528918e68234b1",
+            "7dc388677fd41135",
+            "de7328c266d6e52f",
+            "352178bdf0ecf9c4",
+            "c17ddb99bdf9a484",
+            "e4e6973c6420152d",
+            "84b2f3ab9897af44",
+            "6367c80fffa2a92b"
+        ],
+        "x": 1294,
+        "y": 1379,
+        "w": 1012,
+        "h": 222
     },
-    "nodes": [
-      "229ef3e3.64b44c",
-      "96a44a7f.59bf78",
-      "776a9b87.2985a4",
-      "9c6e163d.ff1d58",
-      "3370afdc.348b2",
-      "6846f424.c15dcc",
-      "b8cfb265.28725",
-      "88edecdb.cd90e",
-      "a46ee0fc.bf35d",
-      "15098381.a4683c",
-      "6a67098e.79ed68",
-      "5cd9da7b.0d7e54"
-    ],
-    "x": 1554,
-    "y": 1159,
-    "w": 1212,
-    "h": 202
-  },
-  {
-    "id": "94a7d999.26cf28",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Toggle Subscriber",
-    "style": {
-      "label": true
+    {
+        "id": "45de7b2eb2ae16a2",
+        "type": "group",
+        "z": "709e0f0ed058ef22",
+        "name": "Toggle Subscriber",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6d9fc726f4cf48c1",
+            "49762fecd39b0a31",
+            "f266ac5fc079fb4e",
+            "337892348848f45f",
+            "ef4c704f1b417206",
+            "1885a3ce1d2d4cdb",
+            "02e628d20ae3d960",
+            "df683241be1d0904",
+            "040dad9d7a63a53d",
+            "d09a8516359877ef"
+        ],
+        "x": 1294,
+        "y": 59,
+        "w": 892,
+        "h": 202
     },
-    "nodes": [
-      "872b704d.66a0c",
-      "b767b102.17538",
-      "3fe76432.36a08c",
-      "67a8350b.85c57c",
-      "e0827d7f.2dec4",
-      "79ba73fd.a735cc",
-      "59c3682e.81b938",
-      "b85974fb.e09a88",
-      "427507b2.396608"
-    ],
-    "x": 1194,
-    "y": 19,
-    "w": 772,
-    "h": 202
-  },
-  {
-    "id": "a016af31.e365e",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Send Reply",
-    "style": {
-      "label": true
+    {
+        "id": "86bb840c3ad250aa",
+        "type": "group",
+        "z": "709e0f0ed058ef22",
+        "name": "Send Reply",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "34bc62b7b0c8ae2e",
+            "c51cbf3c7d03aa61",
+            "d942e05e66ea3639",
+            "1233f7dffead7b8d",
+            "308402d94fea1adb",
+            "59d30358619acfb3",
+            "a4aef9c750a576ee",
+            "db63a039459aef72",
+            "209752c1442fed83"
+        ],
+        "x": 1294,
+        "y": 659,
+        "w": 1052,
+        "h": 222
     },
-    "nodes": [
-      "dfc7fe1f.49753",
-      "ccaa3ba.6b956c8",
-      "cc64463f.067fe8",
-      "5d03339f.41949c",
-      "c2f33552.12aa38",
-      "39ff5390.a83aec",
-      "103e1a8d.8daa15",
-      "5c9e41293838a429",
-      "513729da3d43712e"
-    ],
-    "x": 1534,
-    "y": 539,
-    "w": 1032,
-    "h": 182
-  },
-  {
-    "id": "ada05902.000618",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Start new conversation",
-    "style": {
-      "label": true
+    {
+        "id": "745e60bb9f7a2df4",
+        "type": "group",
+        "z": "709e0f0ed058ef22",
+        "name": "Start new conversation",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "719ffbe277d06e54",
+            "13c9c680207b331c",
+            "4cdef237b796ec2c",
+            "2adcaaa127c71370",
+            "e34844e9ca4d631d",
+            "45bdd26940f02e7d",
+            "d241ec0413898b9e",
+            "3217295f369127c6",
+            "ec6b9b2ce55f1350",
+            "742ae46e645c759b",
+            "3506b9a9c264d659",
+            "469779bde314923d",
+            "2c8a733c9a689489",
+            "bfd9be6a2e2970fc",
+            "44c5ca2785f286f9",
+            "63baa01fd374263b",
+            "829d84a399bb4ea8"
+        ],
+        "x": 54,
+        "y": 659,
+        "w": 1172,
+        "h": 422
     },
-    "nodes": [
-      "e9071afc.1a8558",
-      "3680ad18.d4c4d2",
-      "8c0f2eef.61a5b",
-      "67173226.e9508c",
-      "99e2500f.4379f",
-      "78ca90e8.f79be",
-      "7322f696.261a18",
-      "bf014123.9914e",
-      "106ea841.493d08",
-      "efa1dc11.c2951",
-      "53cffda.f354f04",
-      "b0c8fd3d.55823",
-      "3cc74875.9e8b08",
-      "d2d47e7b.9669a",
-      "36d519f5.d03a66",
-      "c720d04.f24ec3",
-      "f45cc962.709fc8",
-      "226b6db5.694082",
-      "487ceae.8aeb114",
-      "297c992.4b42a66",
-      "b585f24f.342cf",
-      "2069a725.a0ac58",
-      "a02a5743.7e3598",
-      "b5afd6ad.6e7a38",
-      "cb8157a4.5c0358",
-      "db53c852.5fbeb8",
-      "3fe7de9be78ae4af"
-    ],
-    "x": 234,
-    "y": 639,
-    "w": 1192,
-    "h": 562
-  },
-  {
-    "id": "ce76da04.1baa78",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Events",
-    "style": {
-      "label": true
+    {
+        "id": "831e520dba6e3d7e",
+        "type": "group",
+        "z": "709e0f0ed058ef22",
+        "name": "Events",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "65687f082a6042e6",
+            "aecd9469246bbd74",
+            "9f52b4f5ed23fd44",
+            "04c8c782c0ad2b85",
+            "c482db3410a07f4b",
+            "1ca0e2c077342457",
+            "c3f8b5d9e26ef8dd",
+            "517beade62769165",
+            "a5aae8e2f372ab7c",
+            "a43bc97ad2ddce93",
+            "a4a649687c5c2c88",
+            "81362081c2ac20cf",
+            "bfa6c6a81e174ebb",
+            "fcfcb115936d3e5c",
+            "bfcc11e830f93608",
+            "9b66305adff2e225"
+        ],
+        "x": 1294,
+        "y": 279,
+        "w": 1672,
+        "h": 242
     },
-    "nodes": [
-      "2a23d86f.d78e08",
-      "977f9ec9.340a9",
-      "6daf274f.fbc3a8",
-      "6ac597ea.ffbf78",
-      "84326ef5.5056a",
-      "889030fe.76914",
-      "f6f6eb6.748e418",
-      "74d7e94f.3752f8",
-      "4a9a5485.b6c22c",
-      "c5371de6.060a4",
-      "d57faa84.0b2c78",
-      "ffe283fdde726a91",
-      "c3945f684bb4b9ab",
-      "f14e6adb0c3b6738",
-      "681af55c90d429f5",
-      "0185af22b1da1473"
-    ],
-    "x": 1194,
-    "y": 199,
-    "w": 1412,
-    "h": 262
-  },
-  {
-    "id": "d129907e.e7de8",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Configure GDP Blueprint settings",
-    "style": {
-      "label": true
+    {
+        "id": "ae5b173d9c179602",
+        "type": "group",
+        "z": "709e0f0ed058ef22",
+        "name": "Configure GDP Blueprint settings",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6aa0dce72a53c42d",
+            "8150dfc162a71be8",
+            "b49795a4399db83e"
+        ],
+        "x": 94,
+        "y": 199,
+        "w": 632,
+        "h": 122
     },
-    "nodes": [
-      "107273b9.be280c",
-      "71d7148e.78fe9c",
-      "c8dc64d581e0c450"
-    ],
-    "x": 154,
-    "y": 219,
-    "w": 632,
-    "h": 122
-  },
-  {
-    "id": "4dc071e5d690d81d",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Send Attachment",
-    "style": {
-      "label": true
+    {
+        "id": "9f446d0f9995ed20",
+        "type": "group",
+        "z": "709e0f0ed058ef22",
+        "name": "Send Message with Attachment",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "da6c58b51febaf47",
+            "5063c140b4934f10",
+            "5b18f88bdb0f810b",
+            "de26eede5d2be95b",
+            "d309a5a965580b04",
+            "78b8a2ea5aca331d",
+            "ab97bffd939a7d47",
+            "db20cc2385615981",
+            "d203d0cb93f4adc0",
+            "14d99cb841ead3cd",
+            "1e673662acf77e8a",
+            "512667ca828f86a8",
+            "d75cf521a19efd4c"
+        ],
+        "x": 54,
+        "y": 1099,
+        "w": 1172,
+        "h": 322
     },
-    "nodes": [
-      "868eea72eb553de9",
-      "aa78e51fcec95530",
-      "df74670da2aae344",
-      "297e47a1a39effb4",
-      "d9c05e9c47287ecc",
-      "51370a29415ede4a",
-      "70cb99be0451cdb2",
-      "3e03f1cb865450c0",
-      "b44d3da14b5a40d4",
-      "b92fe6dc0647b929"
-    ],
-    "x": 274,
-    "y": 1259,
-    "w": 812,
-    "h": 202
-  },
-  {
-    "id": "a9182e72d25e0fcc",
-    "type": "group",
-    "z": "76f62fdf.bea37",
-    "name": "Authentication",
-    "style": {
-      "label": true
+    {
+        "id": "auth-group-public",
+        "type": "group",
+        "z": "709e0f0ed058ef22",
+        "name": "Authentication (example, env-based)",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "auth-inject-get-token",
+            "auth-build-request",
+            "auth-http-request",
+            "auth-handle-response",
+            "auth-notes",
+            "5eb352c952edd004",
+            "2059c2144bdb52ad"
+        ],
+        "x": 94,
+        "y": 39,
+        "w": 1172,
+        "h": 142
     },
-    "nodes": [
-      "fe7a57bedea0e617",
-      "99de898ad559d7fc",
-      "7820f4d79914f730",
-      "df8c149bb06e4f5c",
-      "965f9c9bbc31e0cc",
-      "0dc45e684808a7ab"
-    ],
-    "x": 94,
-    "y": 19,
-    "w": 1032,
-    "h": 162
-  },
-  {
-    "id": "107273b9.be280c",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "d129907e.e7de8",
-    "name": "Click to save settings",
-    "props": [],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 300,
-    "y": 300,
-    "wires": [
-      [
-        "c8dc64d581e0c450"
-      ]
-    ]
-  },
-  {
-    "id": "e9071afc.1a8558",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Start new conversation",
-    "props": [
-      {
-        "p": "message",
-        "v": "This is a GDP Test Message from Dialogue Studio <b>message</b>",
-        "vt": "str"
-      }
-    ],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 380,
-    "y": 820,
-    "wires": [
-      [
-        "8c0f2eef.61a5b"
-      ]
-    ]
-  },
-  {
-    "id": "3680ad18.d4c4d2",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Create a message",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 810,
-    "y": 740,
-    "wires": [
-      [
-        "67173226.e9508c",
-        "487ceae.8aeb114"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "8c0f2eef.61a5b",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "func": "msg.headers = {\n  \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n  \"Content-type\": \"application/json\"\n};\n\nmsg.payload = {\n  \"content\": msg.message,\n  \"direction\": \"Inbound\",\n  \"participants\": [\n    {\n      \"name\": flow.get('customer_name'),\n      \"role\": \"Sender\",\n      \"uri\": flow.get('customer_uri')\n    },\n    {\n      \"name\": flow.get('receiver_name'),\n      \"role\": \"Receiver\",\n      \"uri\": flow.get('receiver_uri')\n    }\n  ]\n}\n\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 620,
-    "y": 740,
-    "wires": [
-      [
-        "3680ad18.d4c4d2"
-      ]
-    ]
-  },
-  {
-    "id": "67173226.e9508c",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 1070,
-    "y": 680,
-    "wires": []
-  },
-  {
-    "id": "99e2500f.4379f",
-    "type": "change",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "rules": [
-      {
-        "t": "set",
-        "p": "message_id",
-        "pt": "msg",
-        "to": "payload.id",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1300,
-    "y": 740,
-    "wires": [
-      [
-        "3cc74875.9e8b08"
-      ]
-    ]
-  },
-  {
-    "id": "78ca90e8.f79be",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 620,
-    "y": 900,
-    "wires": [
-      [
-        "7322f696.261a18",
-        "c720d04.f24ec3"
-      ]
-    ]
-  },
-  {
-    "id": "7322f696.261a18",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Create a dialogue",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/dialogue/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 830,
-    "y": 900,
-    "wires": [
-      [
-        "c720d04.f24ec3",
-        "cb8157a4.5c0358"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "bf014123.9914e",
-    "type": "change",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "rules": [
-      {
-        "t": "set",
-        "p": "dialogue_id",
-        "pt": "msg",
-        "to": "payload.id",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "dialogue_id",
-        "pt": "flow",
-        "to": "payload.id",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1280,
-    "y": 860,
-    "wires": [
-      [
-        "d2d47e7b.9669a"
-      ]
-    ]
-  },
-  {
-    "id": "106ea841.493d08",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.payload = {\n \"dialogueId\": msg.dialogue_id\n}\n\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 600,
-    "y": 1040,
-    "wires": [
-      [
-        "efa1dc11.c2951"
-      ]
-    ]
-  },
-  {
-    "id": "efa1dc11.c2951",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Link message to dialogue",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/{{{message_id}}}/link/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 830,
-    "y": 1040,
-    "wires": [
-      [
-        "f45cc962.709fc8",
-        "a02a5743.7e3598"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "53cffda.f354f04",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Connect dialogue",
-    "method": "POST",
-    "ret": "txt",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/dialogue/{{{dialogue_id}}}/connect/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 830,
-    "y": 1160,
-    "wires": [
-      [
-        "226b6db5.694082",
-        "b585f24f.342cf"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "b0c8fd3d.55823",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.payload = {\n    \"uccId\": flow.get('gdp_ucc')\n}\n\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 600,
-    "y": 1160,
-    "wires": [
-      [
-        "53cffda.f354f04",
-        "3fe7de9be78ae4af"
-      ]
-    ]
-  },
-  {
-    "id": "3cc74875.9e8b08",
-    "type": "delay",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "pauseType": "delay",
-    "timeout": "1",
-    "timeoutUnits": "milliseconds",
-    "rate": "1",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "outputs": 1,
-    "x": 830,
-    "y": 840,
-    "wires": [
-      [
-        "78ca90e8.f79be"
-      ]
-    ]
-  },
-  {
-    "id": "d2d47e7b.9669a",
-    "type": "delay",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "pauseType": "delay",
-    "timeout": "1",
-    "timeoutUnits": "milliseconds",
-    "rate": "1",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "outputs": 1,
-    "x": 830,
-    "y": 980,
-    "wires": [
-      [
-        "106ea841.493d08"
-      ]
-    ]
-  },
-  {
-    "id": "36d519f5.d03a66",
-    "type": "delay",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "pauseType": "delay",
-    "timeout": "1",
-    "timeoutUnits": "milliseconds",
-    "rate": "1",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "outputs": 1,
-    "x": 830,
-    "y": 1100,
-    "wires": [
-      [
-        "b0c8fd3d.55823"
-      ]
-    ]
-  },
-  {
-    "id": "c720d04.f24ec3",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 1050,
-    "y": 840,
-    "wires": []
-  },
-  {
-    "id": "f45cc962.709fc8",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 1030,
-    "y": 980,
-    "wires": []
-  },
-  {
-    "id": "226b6db5.694082",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 1030,
-    "y": 1120,
-    "wires": []
-  },
-  {
-    "id": "2a23d86f.d78e08",
-    "type": "http in",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "",
-    "url": "/gdp/api/v1/eventhook",
-    "method": "post",
-    "upload": false,
-    "swaggerDoc": "",
-    "x": 1340,
-    "y": 360,
-    "wires": [
-      [
-        "977f9ec9.340a9",
-        "6daf274f.fbc3a8",
-        "c5371de6.060a4"
-      ]
-    ]
-  },
-  {
-    "id": "872b704d.66a0c",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "94a7d999.26cf28",
-    "name": "",
-    "method": "POST",
-    "ret": "txt",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/subscribe/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 1710,
-    "y": 100,
-    "wires": [
-      [
-        "59c3682e.81b938"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "b767b102.17538",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "94a7d999.26cf28",
-    "name": "Start Subscriber",
-    "props": [],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "payloadType": "str",
-    "x": 1320,
-    "y": 100,
-    "wires": [
-      [
-        "3fe76432.36a08c"
-      ]
-    ]
-  },
-  {
-    "id": "3fe76432.36a08c",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "94a7d999.26cf28",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.payload = {\n    \"callbackUrl\":  flow.get('ds_url') + \"/gdp/api/v1/eventhook\"\n}\n\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1500,
-    "y": 100,
-    "wires": [
-      [
-        "872b704d.66a0c",
-        "59c3682e.81b938"
-      ]
-    ]
-  },
-  {
-    "id": "977f9ec9.340a9",
-    "type": "http response",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "",
-    "statusCode": "",
-    "headers": {},
-    "x": 1550,
-    "y": 300,
-    "wires": []
-  },
-  {
-    "id": "67a8350b.85c57c",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "94a7d999.26cf28",
-    "name": "",
-    "method": "POST",
-    "ret": "txt",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/unsubscribe/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 1710,
-    "y": 180,
-    "wires": [
-      [
-        "b85974fb.e09a88"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "e0827d7f.2dec4",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "94a7d999.26cf28",
-    "name": "Stop Subscriber",
-    "props": [],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 1320,
-    "y": 180,
-    "wires": [
-      [
-        "79ba73fd.a735cc"
-      ]
-    ]
-  },
-  {
-    "id": "79ba73fd.a735cc",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "94a7d999.26cf28",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\n\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1500,
-    "y": 180,
-    "wires": [
-      [
-        "67a8350b.85c57c"
-      ]
-    ]
-  },
-  {
-    "id": "59c3682e.81b938",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "94a7d999.26cf28",
-    "name": "",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 1870,
-    "y": 140,
-    "wires": []
-  },
-  {
-    "id": "b85974fb.e09a88",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "94a7d999.26cf28",
-    "name": "",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 1870,
-    "y": 180,
-    "wires": []
-  },
-  {
-    "id": "6daf274f.fbc3a8",
-    "type": "switch",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "",
-    "property": "payload.type",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "Closed",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "AgentConnected",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "AgentDisconnected",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "NewMessage",
-        "vt": "str"
-      }
-    ],
-    "checkall": "true",
-    "repair": false,
-    "outputs": 4,
-    "x": 1550,
-    "y": 360,
-    "wires": [
-      [
-        "889030fe.76914"
-      ],
-      [
-        "f6f6eb6.748e418"
-      ],
-      [
-        "4a9a5485.b6c22c"
-      ],
-      [
-        "6ac597ea.ffbf78"
-      ]
-    ]
-  },
-  {
-    "id": "d680afd0.57261",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "7137f0d0.adc77",
-    "name": "Remove Dialogue from memory",
-    "props": [],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 410,
-    "y": 560,
-    "wires": [
-      [
-        "6b6bc4ad.1575bc"
-      ]
-    ]
-  },
-  {
-    "id": "6b6bc4ad.1575bc",
-    "type": "change",
-    "z": "76f62fdf.bea37",
-    "g": "7137f0d0.adc77",
-    "name": "",
-    "rules": [
-      {
-        "t": "delete",
-        "p": "dialogue_id",
-        "pt": "flow"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 690,
-    "y": 560,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "487ceae.8aeb114",
-    "type": "switch",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Check statusCode",
-    "property": "statusCode",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "201",
-        "vt": "num"
-      },
-      {
-        "t": "else"
-      }
-    ],
-    "checkall": "true",
-    "repair": false,
-    "outputs": 2,
-    "x": 1050,
-    "y": 740,
-    "wires": [
-      [
-        "99e2500f.4379f"
-      ],
-      [
-        "297c992.4b42a66"
-      ]
-    ]
-  },
-  {
-    "id": "297c992.4b42a66",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Print Error 1",
-    "func": "node.error(\"Failed, status code: \" + msg.statusCode);\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1270,
-    "y": 680,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "6ac597ea.ffbf78",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.message_id = msg.payload.payload\n\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1740,
-    "y": 420,
-    "wires": [
-      [
-        "84326ef5.5056a"
-      ]
-    ]
-  },
-  {
-    "id": "84326ef5.5056a",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "Get message",
-    "method": "GET",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/{{{message_id}}}/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 1920,
-    "y": 420,
-    "wires": [
-      [
-        "74d7e94f.3752f8",
-        "d57faa84.0b2c78",
-        "c3945f684bb4b9ab"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "889030fe.76914",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "Log disconnect",
-    "func": "node.warn(\"The conversation has been closed\")\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1760,
-    "y": 280,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "f6f6eb6.748e418",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "Log agent connected",
-    "func": "node.warn(\"The Agent \" + msg.payload.payload + \" has accepted the conversation\")\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1780,
-    "y": 320,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "74d7e94f.3752f8",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "Log agent send",
-    "func": "node.warn(\"The Agent has sent: \" + msg.payload.content)\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 2160,
-    "y": 420,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "3d0caef9.ab6952",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "76692953.c67488",
-    "name": "Disconnect conversation",
-    "props": [],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 1710,
-    "y": 820,
-    "wires": [
-      [
-        "29d9a0e3.84fb7"
-      ]
-    ]
-  },
-  {
-    "id": "29d9a0e3.84fb7",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "76692953.c67488",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\n\n\nmsg.gdp_url = flow.get('gdp_url')\nmsg.dialogue_id = flow.get('dialogue_id')\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1940,
-    "y": 820,
-    "wires": [
-      [
-        "b531ff44.14c47"
-      ]
-    ]
-  },
-  {
-    "id": "b531ff44.14c47",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "76692953.c67488",
-    "name": "Send disconnect to GDP",
-    "method": "POST",
-    "ret": "txt",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/dialogue/{{{dialogue_id}}}/disconnect/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "insecureHTTPParser": false,
-    "authType": "",
-    "senderr": true,
-    "headers": [],
-    "x": 2170,
-    "y": 820,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "dfc7fe1f.49753",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "a016af31.e365e",
-    "name": "Send reply",
-    "props": [
-      {
-        "p": "message",
-        "v": "This a reply GDP message from Dialogue Studio. <b>Test</b>",
-        "vt": "str"
-      }
-    ],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 1640,
-    "y": 620,
-    "wires": [
-      [
-        "cc64463f.067fe8"
-      ]
-    ]
-  },
-  {
-    "id": "ccaa3ba.6b956c8",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "a016af31.e365e",
-    "name": "Create a message",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 1990,
-    "y": 620,
-    "wires": [
-      [
-        "5c9e41293838a429"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "cc64463f.067fe8",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "a016af31.e365e",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.payload = {\n \"content\": msg.message,\n  \"direction\": \"Outbound\",\n  \"participants\": [\n    {\n      \"name\": flow.get('customer_name'),\n      \"role\": \"Receiver\",\n      \"uri\": flow.get('customer_uri')\n    },\n    {\n      \"name\": flow.get('receiver_name'),\n      \"role\": \"Sender\",\n      \"uri\": flow.get('receiver_uri')\n    }\n    ]\n}\n\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1800,
-    "y": 620,
-    "wires": [
-      [
-        "ccaa3ba.6b956c8"
-      ]
-    ]
-  },
-  {
-    "id": "5d03339f.41949c",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "a016af31.e365e",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\n\n\nmsg.payload = {\n \"dialogueId\": flow.get('dialogue_id')\n}\n\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1800,
-    "y": 680,
-    "wires": [
-      [
-        "c2f33552.12aa38"
-      ]
-    ]
-  },
-  {
-    "id": "c2f33552.12aa38",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "a016af31.e365e",
-    "name": "Link message to dialogue",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/{{{message_id}}}/link/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 2010,
-    "y": 680,
-    "wires": [
-      [
-        "39ff5390.a83aec"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "39ff5390.a83aec",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "a016af31.e365e",
-    "name": "",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 2270,
-    "y": 680,
-    "wires": []
-  },
-  {
-    "id": "103e1a8d.8daa15",
-    "type": "change",
-    "z": "76f62fdf.bea37",
-    "g": "a016af31.e365e",
-    "name": "",
-    "rules": [
-      {
-        "t": "set",
-        "p": "message_id",
-        "pt": "msg",
-        "to": "payload.id",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2440,
-    "y": 620,
-    "wires": [
-      [
-        "5d03339f.41949c"
-      ]
-    ]
-  },
-  {
-    "id": "d2adf5bc.8367f8",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "31a94a9c.154a76",
-    "name": "Send reply",
-    "props": [
-      {
-        "p": "message",
-        "v": "This a new GDP message from Dialogue Studio to re-open the conversation",
-        "vt": "str"
-      }
-    ],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 1640,
-    "y": 960,
-    "wires": [
-      [
-        "970340e7.adf21"
-      ]
-    ]
-  },
-  {
-    "id": "360cbdab.0f5d82",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "31a94a9c.154a76",
-    "name": "Create a message",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 1990,
-    "y": 960,
-    "wires": [
-      [
-        "493a39b5.dbe088"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "970340e7.adf21",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "31a94a9c.154a76",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.payload = {\n \"content\": msg.message,\n  \"direction\": \"Inbound\",\n  \"participants\": [\n    {\n      \"name\": flow.get('customer_name'),\n      \"role\": \"Sender\",\n      \"uri\": flow.get('customer_uri')\n    },\n    {\n      \"name\": flow.get('receiver_name'),\n      \"role\": \"Receiver\",\n      \"uri\": flow.get('receiver_uri')\n    }\n    ]\n}\n\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1800,
-    "y": 960,
-    "wires": [
-      [
-        "360cbdab.0f5d82"
-      ]
-    ]
-  },
-  {
-    "id": "7d31b1b8.ff06f",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "31a94a9c.154a76",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.dialogue_id = flow.get('dialogue_id')\n\nmsg.payload = {\n \"dialogueId\": flow.get('dialogue_id')\n}\n\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1800,
-    "y": 1020,
-    "wires": [
-      [
-        "866e82d9.319e8"
-      ]
-    ]
-  },
-  {
-    "id": "866e82d9.319e8",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "31a94a9c.154a76",
-    "name": "Link message to dialogue",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/{{{message_id}}}/link/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 2010,
-    "y": 1020,
-    "wires": [
-      [
-        "15c67fde.1c9be",
-        "4d18fa01.2c8a04"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "15c67fde.1c9be",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "31a94a9c.154a76",
-    "name": "",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 2270,
-    "y": 1020,
-    "wires": []
-  },
-  {
-    "id": "493a39b5.dbe088",
-    "type": "change",
-    "z": "76f62fdf.bea37",
-    "g": "31a94a9c.154a76",
-    "name": "",
-    "rules": [
-      {
-        "t": "set",
-        "p": "message_id",
-        "pt": "msg",
-        "to": "payload.id",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2220,
-    "y": 960,
-    "wires": [
-      [
-        "7d31b1b8.ff06f"
-      ]
-    ]
-  },
-  {
-    "id": "8a14284b.313a28",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "31a94a9c.154a76",
-    "name": "Connect dialogue",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/dialogue/{{{dialogue_id}}}/connect/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 2010,
-    "y": 1080,
-    "wires": [
-      []
-    ],
-    "senderr": true
-  },
-  {
-    "id": "4d18fa01.2c8a04",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "31a94a9c.154a76",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.payload = {\n \"uccId\": flow.get('gdp_ucc')\n}\n\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1800,
-    "y": 1080,
-    "wires": [
-      [
-        "8a14284b.313a28"
-      ]
-    ]
-  },
-  {
-    "id": "4a9a5485.b6c22c",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "Log agent disconnected",
-    "func": "node.warn(\"The Agent \" + msg.payload.payload + \" has left the conversation\")\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1790,
-    "y": 360,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "229ef3e3.64b44c",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "Get Dialogue Messages",
-    "props": [],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 1700,
-    "y": 1200,
-    "wires": [
-      [
-        "776a9b87.2985a4"
-      ]
-    ]
-  },
-  {
-    "id": "96a44a7f.59bf78",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "Get Dialogue",
-    "method": "GET",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/dialogue/{{{dialogue_id}}}/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 2070,
-    "y": 1200,
-    "wires": [
-      [
-        "9c6e163d.ff1d58",
-        "6846f424.c15dcc"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "776a9b87.2985a4",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\n\nmsg.dialogue_id = flow.get('dialogue_id')\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1900,
-    "y": 1200,
-    "wires": [
-      [
-        "96a44a7f.59bf78"
-      ]
-    ]
-  },
-  {
-    "id": "9c6e163d.ff1d58",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 2310,
-    "y": 1200,
-    "wires": []
-  },
-  {
-    "id": "3370afdc.348b2",
-    "type": "split",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "",
-    "splt": "\\n",
-    "spltType": "str",
-    "arraySplt": 1,
-    "arraySpltType": "len",
-    "stream": false,
-    "addname": "",
-    "x": 1910,
-    "y": 1280,
-    "wires": [
-      [
-        "b8cfb265.28725"
-      ]
-    ]
-  },
-  {
-    "id": "6846f424.c15dcc",
-    "type": "change",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "payload.messages",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1740,
-    "y": 1280,
-    "wires": [
-      [
-        "3370afdc.348b2"
-      ]
-    ]
-  },
-  {
-    "id": "b8cfb265.28725",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.message_id = msg.payload.id\n\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 2080,
-    "y": 1280,
-    "wires": [
-      [
-        "88edecdb.cd90e"
-      ]
-    ]
-  },
-  {
-    "id": "88edecdb.cd90e",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "Get a message",
-    "method": "GET",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/{{{message_id}}}",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 2280,
-    "y": 1280,
-    "wires": [
-      [
-        "a46ee0fc.bf35d",
-        "5cd9da7b.0d7e54"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "a46ee0fc.bf35d",
-    "type": "switch",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "",
-    "property": "payload.direction",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "Inbound",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "Outbound",
-        "vt": "str"
-      }
-    ],
-    "checkall": "true",
-    "repair": false,
-    "outputs": 2,
-    "x": 2470,
-    "y": 1280,
-    "wires": [
-      [
-        "6a67098e.79ed68"
-      ],
-      [
-        "15098381.a4683c"
-      ]
-    ]
-  },
-  {
-    "id": "15098381.a4683c",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "Log agent send",
-    "func": "node.warn(\"The Agent has sent: \" + msg.payload.content)\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 2640,
-    "y": 1320,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "6a67098e.79ed68",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "Log customer send",
-    "func": "node.warn(\"The Customer has sent: \" + msg.payload.content)\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 2650,
-    "y": 1240,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "5cd9da7b.0d7e54",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "8b42dc9d.f8fdd",
-    "name": "",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "false",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 2500,
-    "y": 1220,
-    "wires": []
-  },
-  {
-    "id": "427507b2.396608",
-    "type": "comment",
-    "z": "76f62fdf.bea37",
-    "g": "94a7d999.26cf28",
-    "name": "Replace with your own Dialogue Studio URL",
-    "info": "",
-    "x": 1590,
-    "y": 60,
-    "wires": []
-  },
-  {
-    "id": "71d7148e.78fe9c",
-    "type": "comment",
-    "z": "76f62fdf.bea37",
-    "g": "d129907e.e7de8",
-    "name": "Replace with own Generic Dialogue Provider URL",
-    "info": "",
-    "x": 360,
-    "y": 260,
-    "wires": []
-  },
-  {
-    "id": "b585f24f.342cf",
-    "type": "switch",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Check statusCode",
-    "property": "statusCode",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "200",
-        "vt": "num"
-      },
-      {
-        "t": "else"
-      }
-    ],
-    "checkall": "true",
-    "repair": false,
-    "outputs": 2,
-    "x": 1070,
-    "y": 1160,
-    "wires": [
-      [],
-      [
-        "2069a725.a0ac58"
-      ]
-    ]
-  },
-  {
-    "id": "2069a725.a0ac58",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Print Error 4",
-    "func": "node.error(\"Failed, status code: \" + msg.statusCode);\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1290,
-    "y": 1160,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "a02a5743.7e3598",
-    "type": "switch",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Check statusCode",
-    "property": "statusCode",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "200",
-        "vt": "num"
-      },
-      {
-        "t": "else"
-      }
-    ],
-    "checkall": "true",
-    "repair": false,
-    "outputs": 2,
-    "x": 1090,
-    "y": 1040,
-    "wires": [
-      [
-        "36d519f5.d03a66"
-      ],
-      [
-        "b5afd6ad.6e7a38"
-      ]
-    ]
-  },
-  {
-    "id": "b5afd6ad.6e7a38",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Print Error 3",
-    "func": "node.error(\"Failed, status code: \" + msg.statusCode);\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1310,
-    "y": 1040,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "cb8157a4.5c0358",
-    "type": "switch",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Check statusCode",
-    "property": "statusCode",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "201",
-        "vt": "num"
-      },
-      {
-        "t": "else"
-      }
-    ],
-    "checkall": "true",
-    "repair": false,
-    "outputs": 2,
-    "x": 1070,
-    "y": 900,
-    "wires": [
-      [
-        "bf014123.9914e"
-      ],
-      [
-        "db53c852.5fbeb8"
-      ]
-    ]
-  },
-  {
-    "id": "db53c852.5fbeb8",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "Print Error 2",
-    "func": "node.error(\"Failed, status code: \" + msg.statusCode);\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1290,
-    "y": 940,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "c5371de6.060a4",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "false",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 1560,
-    "y": 420,
-    "wires": []
-  },
-  {
-    "id": "d57faa84.0b2c78",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "false",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 2120,
-    "y": 360,
-    "wires": []
-  },
-  {
-    "id": "686c174c.c6ae28",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "591c322d.92a9fc",
-    "name": "Add Outbound Bot message",
-    "props": [
-      {
-        "p": "message",
-        "v": "This message is from the bot.",
-        "vt": "str"
-      }
-    ],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 1500,
-    "y": 1460,
-    "wires": [
-      [
-        "a6902e5a.bdaa8"
-      ]
-    ]
-  },
-  {
-    "id": "e3ce61a5.98ea6",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "591c322d.92a9fc",
-    "name": "Create a message",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 1910,
-    "y": 1460,
-    "wires": [
-      [
-        "a022a58.53add58"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "a6902e5a.bdaa8",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "591c322d.92a9fc",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.payload = {\n \"content\": msg.message,\n  \"direction\": \"Outbound\",\n  \"participants\": [\n    {\n      \"name\": flow.get('customer_name'),\n      \"role\": \"Receiver\",\n      \"uri\": flow.get('customer_uri')\n    },\n    {\n      \"name\": flow.get('receiver_name'),\n      \"role\": \"Sender\",\n      \"uri\": flow.get('receiver_uri')\n    }\n    ]\n}\n\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1720,
-    "y": 1460,
-    "wires": [
-      [
-        "e3ce61a5.98ea6"
-      ]
-    ]
-  },
-  {
-    "id": "b3cbb7ed.77e968",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "591c322d.92a9fc",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\n\n\nmsg.payload = {\n \"dialogueId\": flow.get('dialogue_id')\n}\n\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 1720,
-    "y": 1520,
-    "wires": [
-      [
-        "d9126f98.bae6e"
-      ]
-    ]
-  },
-  {
-    "id": "d9126f98.bae6e",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "591c322d.92a9fc",
-    "name": "Link message to dialogue",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/{{{message_id}}}/link/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 1930,
-    "y": 1520,
-    "wires": [
-      [
-        "f8be8d24.d6018"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "f8be8d24.d6018",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "591c322d.92a9fc",
-    "name": "",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 2190,
-    "y": 1520,
-    "wires": []
-  },
-  {
-    "id": "a022a58.53add58",
-    "type": "change",
-    "z": "76f62fdf.bea37",
-    "g": "591c322d.92a9fc",
-    "name": "",
-    "rules": [
-      {
-        "t": "set",
-        "p": "message_id",
-        "pt": "msg",
-        "to": "payload.id",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2140,
-    "y": 1460,
-    "wires": [
-      [
-        "b3cbb7ed.77e968"
-      ]
-    ]
-  },
-  {
-    "id": "fe7a57bedea0e617",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "a9182e72d25e0fcc",
-    "name": "Request token",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "insecureHTTPParser": false,
-    "authType": "",
-    "senderr": true,
-    "headers": [],
-    "x": 840,
-    "y": 140,
-    "wires": [
-      [
-        "df8c149bb06e4f5c"
-      ]
-    ]
-  },
-  {
-    "id": "99de898ad559d7fc",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "a9182e72d25e0fcc",
-    "name": "Configure AnywhereNow Authentication request",
-    "func": "const clientId = \"\"\nconst clientSecret = \"\"\nconst url = \"https://login.acc.anywhere365.cloud/auth/realms/b14b1646-6008-ef11-9f89-6045bd96b58a/protocol/openid-connect/token\"\n\nmsg.headers = {\n  \"Content-type\": \"application/x-www-form-urlencoded\"\n};\n\nmsg.payload = {\n  \"client_id\": clientId,\n  \"grant_type\": \"client_credentials\",\n  \"client_secret\": clientSecret\n}\n\nmsg.url = url\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 560,
-    "y": 140,
-    "wires": [
-      [
-        "fe7a57bedea0e617"
-      ]
-    ]
-  },
-  {
-    "id": "7820f4d79914f730",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "a9182e72d25e0fcc",
-    "name": "Generate new token",
-    "props": [],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 270,
-    "y": 140,
-    "wires": [
-      [
-        "99de898ad559d7fc"
-      ]
-    ]
-  },
-  {
-    "id": "df8c149bb06e4f5c",
-    "type": "change",
-    "z": "76f62fdf.bea37",
-    "g": "a9182e72d25e0fcc",
-    "name": "Store Token",
-    "rules": [
-      {
-        "t": "set",
-        "p": "gdp_token",
-        "pt": "flow",
-        "to": "payload.access_token",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1030,
-    "y": 140,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "3e03f1cb865450c0",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "4dc071e5d690d81d",
-    "name": "Prepare file",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    };\n\nmsg.payload = {\n  file: {\n    value: Buffer.from('This is a dummy file content.'),\n    options: {\n      filename: 'dummyfile.txt',\n      contentType: 'text/plain'\n    }\n  }\n};\n\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 530,
-    "y": 1360,
-    "wires": [
-      [
-        "b44d3da14b5a40d4"
-      ]
-    ]
-  },
-  {
-    "id": "b44d3da14b5a40d4",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "4dc071e5d690d81d",
-    "name": "Upload Attachment",
-    "method": "POST",
-    "ret": "txt",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/{{{message_id}}}/attachment/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "insecureHTTPParser": false,
-    "authType": "",
-    "senderr": true,
-    "headers": [],
-    "x": 730,
-    "y": 1360,
-    "wires": [
-      [
-        "297e47a1a39effb4",
-        "b92fe6dc0647b929"
-      ]
-    ]
-  },
-  {
-    "id": "868eea72eb553de9",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "4dc071e5d690d81d",
-    "name": "Send reply",
-    "props": [
-      {
-        "p": "message",
-        "v": "This an attachment.",
-        "vt": "str"
-      }
-    ],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 380,
-    "y": 1300,
-    "wires": [
-      [
-        "df74670da2aae344"
-      ]
-    ]
-  },
-  {
-    "id": "aa78e51fcec95530",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "4dc071e5d690d81d",
-    "name": "Create a message",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 730,
-    "y": 1300,
-    "wires": [
-      [
-        "70cb99be0451cdb2"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "df74670da2aae344",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "4dc071e5d690d81d",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.payload = {\n \"content\": msg.message,\n  \"direction\": \"Inbound\",\n  \"participants\": [\n    {\n      \"name\": flow.get('customer_name'),\n      \"role\": \"Sender\",\n      \"uri\": flow.get('customer_uri')\n    },\n    {\n      \"name\": flow.get('receiver_name'),\n      \"role\": \"Receiver\",\n      \"uri\": flow.get('receiver_uri')\n    }\n    ]\n}\n\nmsg.gdp_url = flow.get('gdp_url')\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 540,
-    "y": 1300,
-    "wires": [
-      [
-        "aa78e51fcec95530"
-      ]
-    ]
-  },
-  {
-    "id": "297e47a1a39effb4",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "4dc071e5d690d81d",
-    "name": "",
-    "func": "msg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\n\n\nmsg.payload = {\n \"dialogueId\": flow.get('dialogue_id')\n}\n\n\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 520,
-    "y": 1420,
-    "wires": [
-      [
-        "d9c05e9c47287ecc"
-      ]
-    ]
-  },
-  {
-    "id": "d9c05e9c47287ecc",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "4dc071e5d690d81d",
-    "name": "Link message to dialogue",
-    "method": "POST",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/{{{message_id}}}/link/",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "authType": "",
-    "x": 730,
-    "y": 1420,
-    "wires": [
-      [
-        "51370a29415ede4a"
-      ]
-    ],
-    "senderr": true
-  },
-  {
-    "id": "51370a29415ede4a",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "4dc071e5d690d81d",
-    "name": "",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 990,
-    "y": 1420,
-    "wires": []
-  },
-  {
-    "id": "70cb99be0451cdb2",
-    "type": "change",
-    "z": "76f62fdf.bea37",
-    "g": "4dc071e5d690d81d",
-    "name": "",
-    "rules": [
-      {
-        "t": "set",
-        "p": "message_id",
-        "pt": "msg",
-        "to": "payload.id",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 960,
-    "y": 1300,
-    "wires": [
-      [
-        "3e03f1cb865450c0"
-      ]
-    ]
-  },
-  {
-    "id": "b92fe6dc0647b929",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "4dc071e5d690d81d",
-    "name": "debug 7",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 960,
-    "y": 1360,
-    "wires": []
-  },
-  {
-    "id": "965f9c9bbc31e0cc",
-    "type": "inject",
-    "z": "76f62fdf.bea37",
-    "g": "a9182e72d25e0fcc",
-    "name": "Inject Token manually",
-    "props": [
-      {
-        "p": "payload.access_token",
-        "v": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwNWhjS19HMmNwcjZCenQxU1VkdG95a3N4V1dYa1JUS3JidlBQZEdKXzljIn0.eyJleHAiOjE3NTM3OTIzMjEsImlhdCI6MTc1Mzc5MjAyMSwianRpIjoiMzgzOWZkZmYtMzk1ZS00YzE1LWEyNDctOTE5ZmRkYzQwZjRmIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0dEUCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIyMzYzMTYxMi1jNjQ0LTRmYmMtYjUwYS0zZTBhYTcwOGJiMzUiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJnZHAiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLWdkcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImdkcCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwiY2xpZW50SWQiOiJnZHAiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImNsaWVudEhvc3QiOiIxNzIuMTcuMC4xIiwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LWdkcCIsImNsaWVudEFkZHJlc3MiOiIxNzIuMTcuMC4xIn0.OKIAHwOWEPUn_4lda5PszUEBG6txkvsI3relaXMQ_izYgMWla_W0j0a2m-NA5dajRTy2NRjrCyOA4dSfPZeF1caXXBM1cw9ZbyTyZaVS2Ocr2HB3naUqXWggEfDCF4ee_0kufpNnzfCZJu4j8DiCmGflI48BCBt0AfqSx3veoB9wRPERzzc_74KrDJCZykG4dHfFdiSvoGUD6OhqYWFQJH15MtbvKCXJw1kfdnMSl7aSarriqpQi8J-huMlnBf9CF00Yec3jTctVnaNz86EfbTQPgw91RncIWqIj8uaOYd8X88xYMRr2bFsAUCfPinfMz3jxpBGXr6_b2N_rZTHQXA",
-        "vt": "str"
-      }
-    ],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "x": 840,
-    "y": 100,
-    "wires": [
-      [
-        "df8c149bb06e4f5c"
-      ]
-    ]
-  },
-  {
-    "id": "0dc45e684808a7ab",
-    "type": "comment",
-    "z": "76f62fdf.bea37",
-    "g": "a9182e72d25e0fcc",
-    "name": "ToDo: Enter AnywhereNow Authentication information",
-    "info": "",
-    "x": 320,
-    "y": 60,
-    "wires": []
-  },
-  {
-    "id": "c8dc64d581e0c450",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "d129907e.e7de8",
-    "name": "Configure settings for flow variables",
-    "func": "// Prefer environment variables, fall back to sample defaults\nconst gdpUrl = env.get(\"GDP_URL\") || \"https://app22web.anywhere365.net/GenericDialogueProvider\";\nconst gdpUCC = env.get(\"GDP_UCC\") || \"ucc_michael\";\nconst dsUrl  = env.get(\"DS_PUBLIC_URL\") || \"https://{your-instance}.dialogue.studio\";\n\n// define your participants\nvar customerName = env.get(\"GDP_CUSTOMER_NAME\") || \"Road RM Runner\";\nvar customerUri  = env.get(\"GDP_CUSTOMER_URI\")  || \"road.runner.rm@outlook.com\";\nvar receiverName = env.get(\"GDP_RECEIVER_NAME\") || \"GDP\";\nvar receiverUri  = env.get(\"GDP_RECEIVER_URI\")  || \"gdp@anywhere365.net\";\n\n// store into flow context\nflow.set(\"customer_name\", customerName);\nflow.set(\"customer_uri\", customerUri);\nflow.set(\"receiver_name\", receiverName);\nflow.set(\"receiver_uri\", receiverUri);\n\nflow.set('gdp_url', gdpUrl);\nflow.set('gdp_ucc', gdpUCC);\nflow.set('ds_url', dsUrl);\n\nnode.status({text:`gdp_url=${gdpUrl} ucc=${gdpUCC}`});\nreturn msg;\n",
-    "outputs": 1,
-    "timeout": 0,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 620,
-    "y": 300,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "5c9e41293838a429",
-    "type": "switch",
-    "z": "76f62fdf.bea37",
-    "g": "a016af31.e365e",
-    "name": "Check statusCode",
-    "property": "statusCode",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "201",
-        "vt": "num"
-      },
-      {
-        "t": "else"
-      }
-    ],
-    "checkall": "true",
-    "repair": false,
-    "outputs": 2,
-    "x": 2190,
-    "y": 620,
-    "wires": [
-      [
-        "103e1a8d.8daa15"
-      ],
-      [
-        "513729da3d43712e"
-      ]
-    ]
-  },
-  {
-    "id": "513729da3d43712e",
-    "type": "function",
-    "z": "76f62fdf.bea37",
-    "g": "a016af31.e365e",
-    "name": "Print Error 5",
-    "func": "node.error(\"Failed, status code: \" + msg.statusCode);\n\nreturn msg;",
-    "outputs": 1,
-    "timeout": "",
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 2410,
-    "y": 580,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "3fe7de9be78ae4af",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "ada05902.000618",
-    "name": "debug 9",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "false",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 640,
-    "y": 1100,
-    "wires": []
-  },
-  {
-    "id": "c3945f684bb4b9ab",
-    "type": "switch",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "",
-    "property": "payload.attachments[0]",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "nnull"
-      }
-    ],
-    "checkall": "true",
-    "repair": false,
-    "outputs": 1,
-    "x": 2120,
-    "y": 300,
-    "wires": [
-      [
-        "f14e6adb0c3b6738"
-      ]
-    ]
-  },
-  {
-    "id": "f14e6adb0c3b6738",
-    "type": "change",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "",
-    "rules": [
-      {
-        "t": "set",
-        "p": "attachment_id",
-        "pt": "msg",
-        "to": "payload.attachments[0].id",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2300,
-    "y": 300,
-    "wires": [
-      [
-        "ffe283fdde726a91"
-      ]
-    ]
-  },
-  {
-    "id": "ffe283fdde726a91",
-    "type": "http request",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "Get attachment",
-    "method": "GET",
-    "ret": "obj",
-    "paytoqs": "ignore",
-    "url": "{{{gdp_url}}}/api/v1/message/{{{message_id}}}/attachment/{{{attachment_id}}}",
-    "tls": "",
-    "persist": false,
-    "proxy": "",
-    "insecureHTTPParser": false,
-    "authType": "",
-    "senderr": true,
-    "headers": [],
-    "x": 2500,
-    "y": 300,
-    "wires": [
-      [
-        "681af55c90d429f5"
-      ]
-    ]
-  },
-  {
-    "id": "681af55c90d429f5",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "debug 69",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 2500,
-    "y": 240,
-    "wires": []
-  },
-  {
-    "id": "0185af22b1da1473",
-    "type": "debug",
-    "z": "76f62fdf.bea37",
-    "g": "ce76da04.1baa78",
-    "name": "debug 70",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 2070,
-    "y": 240,
-    "wires": []
-  }
+    {
+        "id": "6aa0dce72a53c42d",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "ae5b173d9c179602",
+        "name": "Click to save settings",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "b49795a4399db83e"
+            ]
+        ]
+    },
+    {
+        "id": "719ffbe277d06e54",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Start new conversation",
+        "props": [
+            {
+                "p": "message",
+                "v": "This is a GDP Test Message from Dialogue Studio <b>message</b>",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 200,
+        "y": 740,
+        "wires": [
+            [
+                "4cdef237b796ec2c"
+            ]
+        ]
+    },
+    {
+        "id": "13c9c680207b331c",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Create a message",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 710,
+        "y": 740,
+        "wires": [
+            [
+                "2adcaaa127c71370",
+                "2c8a733c9a689489"
+            ]
+        ]
+    },
+    {
+        "id": "4cdef237b796ec2c",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Prepare Create Message",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst customer_name = flow.get('customer_name');\nconst customer_uri = flow.get('customer_uri');\nconst receiver_name = flow.get('receiver_name');\nconst receiver_uri = flow.get('receiver_uri');\n\nif (!gdp_url || !token || !customer_uri || !receiver_uri) {\n  node.error(\"Missing required flow vars (gdp_url, gdp_token, customer_uri, receiver_uri)\", msg);\n  return null;\n}\n\nmsg.headers = {\n  \"Authorization\": \"Bearer \" + token,\n  \"Content-type\": \"application/json\"\n};\nmsg.method = \"POST\";\nmsg.payload = {\n  content: msg.message,\n  direction: \"Inbound\",\n  participants: [\n    { name: customer_name, role: \"Sender\", uri: customer_uri },\n    { name: receiver_name, role: \"Receiver\", uri: receiver_uri }\n  ]\n};\nmsg.url = `${gdp_url}/api/v1/message/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 740,
+        "wires": [
+            [
+                "13c9c680207b331c"
+            ]
+        ]
+    },
+    {
+        "id": "2adcaaa127c71370",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "e34844e9ca4d631d",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Prepare Create Dialogue",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token   = flow.get('gdp_token');\nif (!gdp_url || !token) {\n  node.error(\"Missing required flow vars (gdp_url, gdp_token)\", msg);\n  return null;\n}\nmsg.headers = { \"Authorization\": \"Bearer \" + token, \"Content-type\": \"application/json\" };\nmsg.method  = \"POST\";\nmsg.url     = `${gdp_url}/api/v1/dialogue/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 840,
+        "wires": [
+            [
+                "45bdd26940f02e7d",
+                "3506b9a9c264d659"
+            ]
+        ]
+    },
+    {
+        "id": "45bdd26940f02e7d",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Create a dialogue",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 710,
+        "y": 840,
+        "wires": [
+            [
+                "3506b9a9c264d659",
+                "bfd9be6a2e2970fc"
+            ]
+        ]
+    },
+    {
+        "id": "d241ec0413898b9e",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Prepare Link Message to Dialogue",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst message_id = msg.message_id;\nconst dialogue_id = flow.get('dialogue_id');\n\nif (!gdp_url || !token || !message_id || !dialogue_id) {\n    node.error(\"Missing required ids or config for link step\", msg);\n    return null;\n}\nmsg.headers = { \"Authorization\": \"Bearer \" + token, \"Content-type\": \"application/json\" };\nmsg.method = \"POST\";\nmsg.payload = { dialogueId: dialogue_id };\nmsg.url = `${gdp_url}/api/v1/message/${message_id}/link/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 940,
+        "wires": [
+            [
+                "3217295f369127c6"
+            ]
+        ]
+    },
+    {
+        "id": "3217295f369127c6",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Link message to dialogue",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 730,
+        "y": 940,
+        "wires": [
+            [
+                "469779bde314923d",
+                "44c5ca2785f286f9"
+            ]
+        ]
+    },
+    {
+        "id": "ec6b9b2ce55f1350",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Connect dialogue",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 710,
+        "y": 1040,
+        "wires": [
+            [
+                "63baa01fd374263b",
+                "829d84a399bb4ea8"
+            ]
+        ]
+    },
+    {
+        "id": "742ae46e645c759b",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Prepare Connect Dialogue",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst ucc = flow.get('gdp_ucc');\nconst dialogue_id = msg.dialogue_id || flow.get('dialogue_id');\n\nif (!gdp_url || !token || !ucc || !dialogue_id) {\n    node.error(\"Missing required vars (gdp_url, gdp_token, gdp_ucc, dialogue_id)\", msg);\n    return null;\n}\nmsg.headers = { \"Authorization\": \"Bearer \" + token, \"Content-type\": \"application/json\" };\nmsg.method = \"POST\";\nmsg.payload = { uccId: ucc };\nmsg.url = `${gdp_url}/api/v1/dialogue/${dialogue_id}/connect/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 1040,
+        "wires": [
+            [
+                "ec6b9b2ce55f1350"
+            ]
+        ]
+    },
+    {
+        "id": "3506b9a9c264d659",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "469779bde314923d",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "65687f082a6042e6",
+        "type": "http in",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "",
+        "url": "/gdp/api/v1/eventhook",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1440,
+        "y": 420,
+        "wires": [
+            [
+                "aecd9469246bbd74",
+                "9f52b4f5ed23fd44",
+                "a43bc97ad2ddce93"
+            ]
+        ]
+    },
+    {
+        "id": "6d9fc726f4cf48c1",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "45de7b2eb2ae16a2",
+        "name": "Subscribe",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "28c34ebf58482caa",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 1860,
+        "y": 140,
+        "wires": [
+            [
+                "02e628d20ae3d960",
+                "040dad9d7a63a53d"
+            ]
+        ]
+    },
+    {
+        "id": "49762fecd39b0a31",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "45de7b2eb2ae16a2",
+        "name": "Start Subscriber",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 1420,
+        "y": 140,
+        "wires": [
+            [
+                "f266ac5fc079fb4e"
+            ]
+        ]
+    },
+    {
+        "id": "f266ac5fc079fb4e",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "45de7b2eb2ae16a2",
+        "name": "Prepare subscribe",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token')\nconst ds_url = flow.get('ds_url');\n\nmsg.headers = {\n    \"Authorization\": \"Bearer \" + token,\n    \"Content-type\": \"application/json\"\n};\n\nmsg.method = \"POST\"\n\nmsg.payload = {\n    \"callbackUrl\":  `${ds_url}/gdp/api/v1/eventhook`\n}\n\nmsg.url = `${gdp_url}/api/v1/subscribe/`\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1630,
+        "y": 140,
+        "wires": [
+            [
+                "6d9fc726f4cf48c1"
+            ]
+        ]
+    },
+    {
+        "id": "aecd9469246bbd74",
+        "type": "http response",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1650,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "337892348848f45f",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "45de7b2eb2ae16a2",
+        "name": "Unsubscribe",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "28c34ebf58482caa",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 1870,
+        "y": 220,
+        "wires": [
+            [
+                "df683241be1d0904",
+                "d09a8516359877ef"
+            ]
+        ]
+    },
+    {
+        "id": "ef4c704f1b417206",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "45de7b2eb2ae16a2",
+        "name": "Stop Subscriber",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1420,
+        "y": 220,
+        "wires": [
+            [
+                "1885a3ce1d2d4cdb"
+            ]
+        ]
+    },
+    {
+        "id": "1885a3ce1d2d4cdb",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "45de7b2eb2ae16a2",
+        "name": "Prepare unsubscribe",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token')\n\nmsg.headers = {\n    \"Authorization\": \"Bearer \" + token,\n    \"Content-type\": \"application/json\"\n};\n\nmsg.method = \"POST\"\n\nmsg.url = `${gdp_url}/api/v1/unsubscribe/`\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1640,
+        "y": 220,
+        "wires": [
+            [
+                "337892348848f45f"
+            ]
+        ]
+    },
+    {
+        "id": "02e628d20ae3d960",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "45de7b2eb2ae16a2",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2050,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "df683241be1d0904",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "45de7b2eb2ae16a2",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2050,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "9f52b4f5ed23fd44",
+        "type": "switch",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Closed",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "AgentConnected",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "AgentDisconnected",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "NewMessage",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 1650,
+        "y": 420,
+        "wires": [
+            [
+                "1ca0e2c077342457"
+            ],
+            [
+                "c3f8b5d9e26ef8dd"
+            ],
+            [
+                "a5aae8e2f372ab7c"
+            ],
+            [
+                "04c8c782c0ad2b85"
+            ]
+        ]
+    },
+    {
+        "id": "1cb80e34a6b221e4",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "6fe340128a27a49a",
+        "name": "Remove Dialogue from memory",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 270,
+        "y": 380,
+        "wires": [
+            [
+                "5d34d26c86c7b622"
+            ]
+        ]
+    },
+    {
+        "id": "5d34d26c86c7b622",
+        "type": "change",
+        "z": "709e0f0ed058ef22",
+        "g": "6fe340128a27a49a",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "dialogue_id",
+                "pt": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04c8c782c0ad2b85",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "Prepare Get Message",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token   = flow.get('gdp_token');\nconst message_id = msg?.payload?.payload; // event carries the message id here\n\nif (!gdp_url || !token) {\n  node.error(\"Missing required flow vars (gdp_url, gdp_token)\", msg);\n  return null;\n}\nif (!message_id) {\n  node.error(\"Event missing message_id in payload.payload\", msg);\n  return null;\n}\n\nmsg.headers = {\n  \"Authorization\": \"Bearer \" + token,\n  \"Content-type\": \"application/json\"\n};\nmsg.method = \"GET\";\nmsg.url = `${gdp_url}/api/v1/message/${message_id}/`;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1880,
+        "y": 480,
+        "wires": [
+            [
+                "c482db3410a07f4b"
+            ]
+        ]
+    },
+    {
+        "id": "c482db3410a07f4b",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "Get message",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 2090,
+        "y": 480,
+        "wires": [
+            [
+                "517beade62769165",
+                "a4a649687c5c2c88",
+                "bfa6c6a81e174ebb"
+            ]
+        ]
+    },
+    {
+        "id": "1ca0e2c077342457",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "Log disconnect",
+        "func": "node.warn(\"The conversation has been closed\")\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1860,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3f8b5d9e26ef8dd",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "Log agent connected",
+        "func": "node.warn(\"The Agent \" + msg.payload.payload + \" has accepted the conversation\")\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1880,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "517beade62769165",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "Validate response and log agent send",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n    const content = msg.payload.content\n    node.warn(\"The Agent has sent: \" + content)\n    return msg;\n}\n\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Get message failed (${sc}). Body: ${String(body).slice(0, 500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2370,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3b0e8969558c0e0a",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "90389f0bc234cc0f",
+        "name": "Disconnect conversation",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1450,
+        "y": 980,
+        "wires": [
+            [
+                "0e4baaa83eb95828"
+            ]
+        ]
+    },
+    {
+        "id": "0e4baaa83eb95828",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "90389f0bc234cc0f",
+        "name": "Prepare disconnect dialogue",
+        "func": "const gdp_url = flow.get('gdp_url')\nconst dialogue_id = flow.get('dialogue_id')\n\nmsg.headers = {\n    \"Authorization\": \"Bearer \" + flow.get('gdp_token'),\n    \"Content-type\": \"application/json\"\n};\n\nmsg.method = \"POST\"\n\nmsg.url = `${gdp_url}/api/v1/dialogue/${dialogue_id}/disconnect/`\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 980,
+        "wires": [
+            [
+                "8761738056e65c4c",
+                "264d858074202c90"
+            ]
+        ]
+    },
+    {
+        "id": "8761738056e65c4c",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "90389f0bc234cc0f",
+        "name": "Disconnect dialogue",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 1960,
+        "y": 980,
+        "wires": [
+            [
+                "2cbee70541e3ba4e"
+            ]
+        ]
+    },
+    {
+        "id": "34bc62b7b0c8ae2e",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "86bb840c3ad250aa",
+        "name": "Send reply",
+        "props": [
+            {
+                "p": "message",
+                "v": "This a reply GDP message from Dialogue Studio.",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1400,
+        "y": 740,
+        "wires": [
+            [
+                "d942e05e66ea3639"
+            ]
+        ]
+    },
+    {
+        "id": "c51cbf3c7d03aa61",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "86bb840c3ad250aa",
+        "name": "Create a message",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 1830,
+        "y": 740,
+        "wires": [
+            [
+                "59d30358619acfb3",
+                "db63a039459aef72"
+            ]
+        ]
+    },
+    {
+        "id": "d942e05e66ea3639",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "86bb840c3ad250aa",
+        "name": "Prepare Create Message",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst customer_name = flow.get('customer_name');\nconst customer_uri = flow.get('customer_uri');\nconst receiver_name = flow.get('receiver_name');\nconst receiver_uri = flow.get('receiver_uri');\n\nif (!gdp_url || !token || !customer_uri || !receiver_uri) {\n  node.error(\"Missing required flow vars (gdp_url, gdp_token, customer_uri, receiver_uri)\", msg);\n  return null;\n}\n\nmsg.headers = {\n  \"Authorization\": \"Bearer \" + token,\n  \"Content-type\": \"application/json\"\n};\nmsg.method = \"POST\";\nmsg.payload = {\n  content: msg.message,\n  direction: \"Outbound\",\n  participants: [\n    { name: customer_name, role: \"Receiver\", uri: customer_uri }, // Note that the Receiver and Sender are swapped, compared to an inbound message.\n    { name: receiver_name, role: \"Sender\", uri: receiver_uri }\n  ]\n};\nmsg.url = `${gdp_url}/api/v1/message/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 740,
+        "wires": [
+            [
+                "c51cbf3c7d03aa61"
+            ]
+        ]
+    },
+    {
+        "id": "1233f7dffead7b8d",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "86bb840c3ad250aa",
+        "name": "Prepare Link Message to Dialogue",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst message_id = msg.message_id;\nconst dialogue_id = flow.get('dialogue_id');\n\nif (!gdp_url || !token || !message_id || !dialogue_id) {\n    node.error(\"Missing required ids or config for link step\", msg);\n    return null;\n}\nmsg.headers = { \"Authorization\": \"Bearer \" + token, \"Content-type\": \"application/json\" };\nmsg.method = \"POST\";\nmsg.payload = { dialogueId: dialogue_id };\nmsg.url = `${gdp_url}/api/v1/message/${message_id}/link/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1560,
+        "y": 840,
+        "wires": [
+            [
+                "308402d94fea1adb"
+            ]
+        ]
+    },
+    {
+        "id": "308402d94fea1adb",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "86bb840c3ad250aa",
+        "name": "Link message to dialogue",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 1850,
+        "y": 840,
+        "wires": [
+            [
+                "a4aef9c750a576ee",
+                "209752c1442fed83"
+            ]
+        ]
+    },
+    {
+        "id": "09bd2eb040d41436",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "Send reply",
+        "props": [
+            {
+                "p": "message",
+                "v": "This a new GDP message from Dialogue Studio to re-open the conversation",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1400,
+        "y": 1120,
+        "wires": [
+            [
+                "556d7d0138f9e577"
+            ]
+        ]
+    },
+    {
+        "id": "3a8ee053791a0bc8",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "Create a message",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 1830,
+        "y": 1120,
+        "wires": [
+            [
+                "03f044668ed834bf",
+                "e5b8aba7c552ca73"
+            ]
+        ]
+    },
+    {
+        "id": "556d7d0138f9e577",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "Prepare Create Message",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst customer_name = flow.get('customer_name');\nconst customer_uri = flow.get('customer_uri');\nconst receiver_name = flow.get('receiver_name');\nconst receiver_uri = flow.get('receiver_uri');\n\nif (!gdp_url || !token || !customer_uri || !receiver_uri) {\n  node.error(\"Missing required flow vars (gdp_url, gdp_token, customer_uri, receiver_uri)\", msg);\n  return null;\n}\n\nmsg.headers = {\n  \"Authorization\": \"Bearer \" + token,\n  \"Content-type\": \"application/json\"\n};\nmsg.method = \"POST\";\nmsg.payload = {\n  content: msg.message,\n  direction: \"Inbound\",\n  participants: [\n    { name: customer_name, role: \"Sender\", uri: customer_uri },\n    { name: receiver_name, role: \"Receiver\", uri: receiver_uri }\n  ]\n};\nmsg.url = `${gdp_url}/api/v1/message/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 1120,
+        "wires": [
+            [
+                "3a8ee053791a0bc8"
+            ]
+        ]
+    },
+    {
+        "id": "2edb7d821bf27558",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "Prepare Link Message to Dialogue",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst message_id = msg.message_id;\nconst dialogue_id = flow.get('dialogue_id');\n\nif (!gdp_url || !token || !message_id || !dialogue_id) {\n    node.error(\"Missing required ids or config for link step\", msg);\n    return null;\n}\nmsg.headers = { \"Authorization\": \"Bearer \" + token, \"Content-type\": \"application/json\" };\nmsg.method = \"POST\";\nmsg.payload = { dialogueId: dialogue_id };\nmsg.url = `${gdp_url}/api/v1/message/${message_id}/link/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1560,
+        "y": 1220,
+        "wires": [
+            [
+                "1c92dce130511bf2"
+            ]
+        ]
+    },
+    {
+        "id": "1c92dce130511bf2",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "Link message to dialogue",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 1850,
+        "y": 1220,
+        "wires": [
+            [
+                "87cae2efe8a5ef01",
+                "e35f128403a802db"
+            ]
+        ]
+    },
+    {
+        "id": "d74e7d411a056e2e",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "Connect dialogue",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 1830,
+        "y": 1320,
+        "wires": [
+            [
+                "89ccaed62cd97f38",
+                "a8fc37ee72dbcc9f"
+            ]
+        ]
+    },
+    {
+        "id": "0a601a45f1b781da",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "Prepare Connect Dialogue",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst ucc = flow.get('gdp_ucc');\nconst dialogue_id = msg.dialogue_id || flow.get('dialogue_id');\n\nif (!gdp_url || !token || !ucc || !dialogue_id) {\n    node.error(\"Missing required vars (gdp_url, gdp_token, gdp_ucc, dialogue_id)\", msg);\n    return null;\n}\nmsg.headers = { \"Authorization\": \"Bearer \" + token, \"Content-type\": \"application/json\" };\nmsg.method = \"POST\";\nmsg.payload = { uccId: ucc };\nmsg.url = `${gdp_url}/api/v1/dialogue/${dialogue_id}/connect/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1580,
+        "y": 1320,
+        "wires": [
+            [
+                "d74e7d411a056e2e"
+            ]
+        ]
+    },
+    {
+        "id": "a5aae8e2f372ab7c",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "Log agent disconnected",
+        "func": "node.warn(\"The Agent \" + msg.payload.payload + \" has left the conversation\")\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1890,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e61ae2dcf129d6a",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "79932d60914709f3",
+        "name": "Get Dialogue Messages",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1440,
+        "y": 1460,
+        "wires": [
+            [
+                "96528918e68234b1"
+            ]
+        ]
+    },
+    {
+        "id": "73f4afb61932cb2f",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "79932d60914709f3",
+        "name": "Get Dialogue",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "28c34ebf58482caa",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 1870,
+        "y": 1460,
+        "wires": [
+            [
+                "c17ddb99bdf9a484",
+                "84b2f3ab9897af44"
+            ]
+        ]
+    },
+    {
+        "id": "96528918e68234b1",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "79932d60914709f3",
+        "name": "Prepare get Dialogue",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst dialogue_id = msg.dialogue_id || flow.get('dialogue_id');\n\nmsg.headers = {\n    \"Authorization\": \"Bearer \" + token,\n    \"Content-type\": \"application/json\"\n};\n\nmsg.method = \"GET\"\n\nmsg.url = `${gdp_url}/api/v1/dialogue/${dialogue_id}/`\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1680,
+        "y": 1460,
+        "wires": [
+            [
+                "73f4afb61932cb2f"
+            ]
+        ]
+    },
+    {
+        "id": "7dc388677fd41135",
+        "type": "split",
+        "z": "709e0f0ed058ef22",
+        "g": "79932d60914709f3",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1490,
+        "y": 1560,
+        "wires": [
+            [
+                "de7328c266d6e52f"
+            ]
+        ]
+    },
+    {
+        "id": "de7328c266d6e52f",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "79932d60914709f3",
+        "name": "Prepare Get Message",
+        "func": "const gdp_url = flow.get('gdp_url')\nconst token = flow.get('gdp_token')\nconst message_id = msg.payload.id\n\nmsg.headers = {\n    \"Authorization\": \"Bearer \" + token,\n    \"Content-type\": \"application/json\"\n};\n\nmsg.method = \"GET\"\n\nmsg.url = `${gdp_url}/api/v1/message/${message_id}`\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1680,
+        "y": 1560,
+        "wires": [
+            [
+                "352178bdf0ecf9c4"
+            ]
+        ]
+    },
+    {
+        "id": "352178bdf0ecf9c4",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "79932d60914709f3",
+        "name": "Get a message",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 1880,
+        "y": 1560,
+        "wires": [
+            [
+                "e4e6973c6420152d",
+                "6367c80fffa2a92b"
+            ]
+        ]
+    },
+    {
+        "id": "8150dfc162a71be8",
+        "type": "comment",
+        "z": "709e0f0ed058ef22",
+        "g": "ae5b173d9c179602",
+        "name": "Replace with own Generic Dialogue Provider URL",
+        "info": "",
+        "x": 300,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a43bc97ad2ddce93",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1650,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "a4a649687c5c2c88",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2290,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "ab97bffd939a7d47",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "Prepare Upload Attachment",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst message_id = msg.message_id;\n\nif (!gdp_url || !token || !message_id) {\n  node.error(\"Missing required vars for attachment upload (gdp_url, gdp_token, message_id)\", msg);\n  return null;\n}\n\n// Do NOT set Content-Type here; the HTTP node will add the multipart boundary.\nmsg.headers = {\n  \"Authorization\": \"Bearer \" + token,\n  \"Content-Type\": \"multipart/form-data\"\n};\n\nmsg.method = \"POST\";\n\n// Example dummy file; replace with actual Buffer/stream from a File/In node.\nmsg.payload = {\n  file: {\n    value: Buffer.from('This is a dummy file content.'),\n    options: {\n      filename: 'dummyfile.txt',\n      contentType: 'text/plain'\n    }\n  }\n};\n\nmsg.url = `${gdp_url}/api/v1/message/${message_id}/attachment/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 1280,
+        "wires": [
+            [
+                "db20cc2385615981"
+            ]
+        ]
+    },
+    {
+        "id": "db20cc2385615981",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "Upload Attachment",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 730,
+        "y": 1280,
+        "wires": [
+            [
+                "1e673662acf77e8a",
+                "512667ca828f86a8"
+            ]
+        ]
+    },
+    {
+        "id": "da6c58b51febaf47",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "Send reply with attachment",
+        "props": [
+            {
+                "p": "message",
+                "v": "This message has an attachment.",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 210,
+        "y": 1180,
+        "wires": [
+            [
+                "5b18f88bdb0f810b"
+            ]
+        ]
+    },
+    {
+        "id": "5063c140b4934f10",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "Create a message",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 730,
+        "y": 1180,
+        "wires": [
+            [
+                "d203d0cb93f4adc0",
+                "14d99cb841ead3cd"
+            ]
+        ]
+    },
+    {
+        "id": "5b18f88bdb0f810b",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "Prepare Create Message",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst customer_name = flow.get('customer_name');\nconst customer_uri = flow.get('customer_uri');\nconst receiver_name = flow.get('receiver_name');\nconst receiver_uri = flow.get('receiver_uri');\n\nif (!gdp_url || !token || !customer_uri || !receiver_uri) {\n  node.error(\"Missing required flow vars (gdp_url, gdp_token, customer_uri, receiver_uri)\", msg);\n  return null;\n}\n\nmsg.headers = {\n  \"Authorization\": \"Bearer \" + token,\n  \"Content-type\": \"application/json\"\n};\nmsg.method = \"POST\";\nmsg.payload = {\n  content: msg.message,\n  direction: \"Inbound\",\n  participants: [\n    { name: customer_name, role: \"Sender\", uri: customer_uri },\n    { name: receiver_name, role: \"Receiver\", uri: receiver_uri }\n  ]\n};\nmsg.url = `${gdp_url}/api/v1/message/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1180,
+        "wires": [
+            [
+                "5063c140b4934f10"
+            ]
+        ]
+    },
+    {
+        "id": "de26eede5d2be95b",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "Prepare Link Message to Dialogue",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\nconst message_id = msg.message_id;\nconst dialogue_id = flow.get('dialogue_id');\n\nif (!gdp_url || !token || !message_id || !dialogue_id) {\n    node.error(\"Missing required ids or config for link step\", msg);\n    return null;\n}\nmsg.headers = { \"Authorization\": \"Bearer \" + token, \"Content-type\": \"application/json\" };\nmsg.method = \"POST\";\nmsg.payload = { dialogueId: dialogue_id };\nmsg.url = `${gdp_url}/api/v1/message/${message_id}/link/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1380,
+        "wires": [
+            [
+                "d309a5a965580b04"
+            ]
+        ]
+    },
+    {
+        "id": "d309a5a965580b04",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "Link message to dialogue",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 730,
+        "y": 1380,
+        "wires": [
+            [
+                "78b8a2ea5aca331d",
+                "d75cf521a19efd4c"
+            ]
+        ]
+    },
+    {
+        "id": "78b8a2ea5aca331d",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "b49795a4399db83e",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "ae5b173d9c179602",
+        "name": "Configure settings for flow variables",
+        "func": "// Prefer environment variables, fall back to sample defaults\nconst gdpUrl = env.get(\"GDP_URL\") || \"https://FQDN/GenericDialogueProvider\";\nconst gdpUCC = env.get(\"GDP_UCC\") || \"ucc_sales\";\nconst dsUrl = env.get(\"DS_PUBLIC_URL\") || \"https:/INSTANCE.dialogue.studio\";\n\n// define your participants\nvar customerName = env.get(\"GDP_CUSTOMER_NAME\") || \"Customer\";\nvar customerUri  = env.get(\"GDP_CUSTOMER_URI\")  || \"customer@domain.com\";\nvar receiverName = env.get(\"GDP_RECEIVER_NAME\") || \"GDP\";\nvar receiverUri  = env.get(\"GDP_RECEIVER_URI\")  || \"gdp@domain.com\";\n\n// store into flow context\nflow.set(\"customer_name\", customerName);\nflow.set(\"customer_uri\", customerUri);\nflow.set(\"receiver_name\", receiverName);\nflow.set(\"receiver_uri\", receiverUri);\n\nflow.set('gdp_url', gdpUrl);\nflow.set('gdp_ucc', gdpUCC);\nflow.set('ds_url', dsUrl);\n\nnode.status({text:`gdp_url=${gdpUrl} ucc=${gdpUCC}`});\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bfa6c6a81e174ebb",
+        "type": "switch",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "Check for Attachments",
+        "property": "payload.attachments[0]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2200,
+        "y": 360,
+        "wires": [
+            [
+                "bfcc11e830f93608"
+            ]
+        ]
+    },
+    {
+        "id": "81362081c2ac20cf",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "Get attachment",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 2640,
+        "y": 360,
+        "wires": [
+            [
+                "fcfcb115936d3e5c",
+                "9b66305adff2e225"
+            ]
+        ]
+    },
+    {
+        "id": "fcfcb115936d3e5c",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2850,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "bfcc11e830f93608",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "Prepare Get Attachment",
+        "func": "const gdp_url = flow.get('gdp_url');\nconst token = flow.get('gdp_token');\n\nconst msgId = msg?.payload?.id;\nconst attachmentId = msg?.payload?.attachments?.[0]?.id;\n\nif (!gdp_url || !token) {\n    node.error(\"Missing required flow vars (gdp_url, gdp_token)\", msg);\n    return null;\n}\nif (!msgId) {\n    node.error(\"Missing message id on payload.id\", msg);\n    return null;\n}\nif (!attachmentId) {\n    node.log(\"No attachments present; skipping attachment fetch.\");\n    return null;\n}\n\nmsg.headers = {\n    \"Authorization\": \"Bearer \" + token,\n    \"Content-type\": \"application/json\"\n};\nmsg.method = \"GET\";\n\nmsg.url = `${gdp_url}/api/v1/message/${msgId}/attachment/${attachmentId}/`;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2430,
+        "y": 360,
+        "wires": [
+            [
+                "81362081c2ac20cf"
+            ]
+        ]
+    },
+    {
+        "id": "2c8a733c9a689489",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Validate response and store Message ID",
+        "func": "// Accept any 2xx; store msg.message_id; include helpful error detail\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  const id = msg.payload?.id;\n  if (!id) {\n    node.error(`Create Message: success (${sc}) but no payload.id`, msg);\n    return null;\n  }\n  msg.message_id = id;\n  return msg;\n}\n\nconst detail = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Create Message failed (${sc}). Body: ${String(detail).slice(0,500)}`, msg);\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 740,
+        "wires": [
+            [
+                "e34844e9ca4d631d"
+            ]
+        ]
+    },
+    {
+        "id": "bfd9be6a2e2970fc",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Validate response and store Dialogue ID",
+        "func": "// Accept any 2xx; store msg.dialogue_id and flow.dialogue_id\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  const id = msg.payload?.id;\n  if (!id) {\n    node.error(`Create Dialogue: success (${sc}) but no payload.id`, msg);\n    return null;\n  }\n  flow.set(\"dialogue_id\", id);\n  return msg;\n}\n\nconst detail = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Create Dialogue failed (${sc}). Body: ${String(detail).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 840,
+        "wires": [
+            [
+                "d241ec0413898b9e"
+            ]
+        ]
+    },
+    {
+        "id": "44c5ca2785f286f9",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Validate response",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 940,
+        "wires": [
+            [
+                "742ae46e645c759b"
+            ]
+        ]
+    },
+    {
+        "id": "63baa01fd374263b",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "Validate response",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "829d84a399bb4ea8",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "745e60bb9f7a2df4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "d203d0cb93f4adc0",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "Validate response and store Message ID",
+        "func": "// Accept any 2xx; store msg.message_id; include helpful error detail\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  const id = msg.payload?.id;\n  if (!id) {\n    node.error(`Create Message: success (${sc}) but no payload.id`, msg);\n    return null;\n  }\n  msg.message_id = id;\n  return msg;\n}\n\nconst detail = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Create Message failed (${sc}). Body: ${String(detail).slice(0,500)}`, msg);\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 1180,
+        "wires": [
+            [
+                "ab97bffd939a7d47"
+            ]
+        ]
+    },
+    {
+        "id": "14d99cb841ead3cd",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "1e673662acf77e8a",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "Validate response",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 1280,
+        "wires": [
+            [
+                "de26eede5d2be95b"
+            ]
+        ]
+    },
+    {
+        "id": "512667ca828f86a8",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "d75cf521a19efd4c",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "9f446d0f9995ed20",
+        "name": "Validate response",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "59d30358619acfb3",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "86bb840c3ad250aa",
+        "name": "Validate response and store Message ID",
+        "func": "// Accept any 2xx; store msg.message_id; include helpful error detail\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  const id = msg.payload?.id;\n  if (!id) {\n    node.error(`Create Message: success (${sc}) but no payload.id`, msg);\n    return null;\n  }\n  msg.message_id = id;\n  return msg;\n}\n\nconst detail = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Create Message failed (${sc}). Body: ${String(detail).slice(0,500)}`, msg);\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2160,
+        "y": 740,
+        "wires": [
+            [
+                "1233f7dffead7b8d"
+            ]
+        ]
+    },
+    {
+        "id": "a4aef9c750a576ee",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "86bb840c3ad250aa",
+        "name": "Validate response",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2090,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db63a039459aef72",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "86bb840c3ad250aa",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2070,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "209752c1442fed83",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "86bb840c3ad250aa",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2070,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "264d858074202c90",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "90389f0bc234cc0f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1950,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "2cbee70541e3ba4e",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "90389f0bc234cc0f",
+        "name": "Validate response",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2170,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "03f044668ed834bf",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "Validate response and store Message ID",
+        "func": "// Accept any 2xx; store msg.message_id; include helpful error detail\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  const id = msg.payload?.id;\n  if (!id) {\n    node.error(`Create Message: success (${sc}) but no payload.id`, msg);\n    return null;\n  }\n  msg.message_id = id;\n  return msg;\n}\n\nconst detail = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Create Message failed (${sc}). Body: ${String(detail).slice(0,500)}`, msg);\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2140,
+        "y": 1120,
+        "wires": [
+            [
+                "2edb7d821bf27558"
+            ]
+        ]
+    },
+    {
+        "id": "87cae2efe8a5ef01",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "Validate response",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2090,
+        "y": 1220,
+        "wires": [
+            [
+                "0a601a45f1b781da"
+            ]
+        ]
+    },
+    {
+        "id": "89ccaed62cd97f38",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "Validate response",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8fc37ee72dbcc9f",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2050,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "e35f128403a802db",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2050,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "e5b8aba7c552ca73",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "39441a8b92d10cf3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2050,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "c17ddb99bdf9a484",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "79932d60914709f3",
+        "name": "Validate response and store messages",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  const messages = msg.payload.messages;\n  msg.payload = messages;\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2130,
+        "y": 1460,
+        "wires": [
+            [
+                "7dc388677fd41135"
+            ]
+        ]
+    },
+    {
+        "id": "e4e6973c6420152d",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "79932d60914709f3",
+        "name": "Log message",
+        "func": "const dir = msg.payload?.direction;\nconst content = msg.payload?.content ?? \"\";\n\nif (dir === \"Inbound\") {\n    node.warn(\"The Customer has sent: \" + content);\n    return null; // nothing else was wired after the original loggers\n}\n\nif (dir === \"Outbound\") {\n    node.warn(\"The Agent has sent: \" + content);\n    return null;\n}\n\n// If direction is neither, mimic the switch (no output)\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2080,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "84b2f3ab9897af44",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "79932d60914709f3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2050,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "6367c80fffa2a92b",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "79932d60914709f3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2050,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "040dad9d7a63a53d",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "45de7b2eb2ae16a2",
+        "name": "Validate response",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2050,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d09a8516359877ef",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "45de7b2eb2ae16a2",
+        "name": "Validate response",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9b66305adff2e225",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "831e520dba6e3d7e",
+        "name": "Validate response",
+        "func": "// Accept any 2xx; otherwise log error with body snippet\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  return msg;\n}\n\n// Use msg.payload if available (txt or obj)\nconst body = typeof msg.payload === 'object'\n  ? JSON.stringify(msg.payload)\n  : (msg.payload ?? '');\nnode.error(`Request failed (${sc}). Body: ${String(body).slice(0,500)}`, msg);\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2850,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "auth-inject-get-token",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "auth-group-public",
+        "name": "Get OAuth token",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 220,
+        "y": 140,
+        "wires": [
+            [
+                "auth-build-request"
+            ]
+        ]
+    },
+    {
+        "id": "auth-build-request",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "auth-group-public",
+        "name": "Build OAuth token request (client_credentials)",
+        "func": "const url = env.get('AUTH_URL') || flow.get('auth_url');\nconst tenantId = env.get('AUTH_TENANT_ID') || flow.get('auth_tenant_id');\nconst clientSecret = env.get('AUTH_CLIENT_SECRET') || flow.get('auth_client_secret');\n\nif (!url || !tenantId || !clientSecret) {\n  node.error('Missing required env vars: AUTH_TOKEN_URL, AUTH_TENANT_ID, AUTH_CLIENT_SECRET', msg);\n  return null;\n}\n\nmsg.headers = { \"Content-Type\": \"application/x-www-form-urlencoded\" };\nmsg.method = \"POST\";\n\nmsg.payload = `grant_type=client_credentials&client_id=genericdialogueprovider&client_secret=${clientSecret}`;\n\nmsg.url = `${url}/auth/realms/${tenantId}/protocol/openid-connect/token/`\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 140,
+        "wires": [
+            [
+                "auth-http-request"
+            ]
+        ]
+    },
+    {
+        "id": "auth-http-request",
+        "type": "http request",
+        "z": "709e0f0ed058ef22",
+        "g": "auth-group-public",
+        "name": "Request token",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 820,
+        "y": 140,
+        "wires": [
+            [
+                "auth-handle-response",
+                "2059c2144bdb52ad"
+            ]
+        ]
+    },
+    {
+        "id": "auth-handle-response",
+        "type": "function",
+        "z": "709e0f0ed058ef22",
+        "g": "auth-group-public",
+        "name": "Handle token response (store + expiry)",
+        "func": "const isManual = msg.manual || false\n\nif (isManual) {\n  const token = msg.payload?.access_token;\n  if (!token) {\n    node.error(\"Manual token injection received but payload.access_token is missing.\", msg);\n    return null;\n  }\n  flow.set('gdp_token', token);\n  node.warn(`Manual token injection received`);\n  return msg;\n}\n\nconst sc = Number(msg.statusCode) || 0;\n\nif (sc >= 200 && sc < 300) {\n  const token = msg.payload?.access_token;\n  const ttlSec = Number(msg.payload?.expires_in); // e.g. 300\n  if (!token) {\n    node.error('Token response OK but no access_token', msg);\n    return null;\n  }\n  // default 1h if expires_in missing/not a number\n  const effectiveTtlMs = Number.isFinite(ttlSec) ? ttlSec * 1000 : 3600 * 1000;\n  const skewMs = 60 * 1000; // 60s safety buffer\n  const expiresAtMs = Date.now() + effectiveTtlMs - skewMs;\n\n  flow.set('gdp_token', token);\n  flow.set('gdp_token_expires_at', expiresAtMs);\n\n  node.warn(`Obtained token; expires at ${new Date(expiresAtMs).toISOString()}`);\n  return msg;\n}\n\nconst body = typeof msg.payload === 'object' ? JSON.stringify(msg.payload) : (msg.payload ?? '');\nnode.error(`Token request failed (${sc}). Body: ${String(body).slice(0, 500)}`, msg);\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "auth-notes",
+        "type": "comment",
+        "z": "709e0f0ed058ef22",
+        "g": "auth-group-public",
+        "name": "Set env vars: AUTH_URL, AUTH_TENANT_ID, AUTH_CLIENT_SECRET",
+        "info": "",
+        "x": 380,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "5eb352c952edd004",
+        "type": "inject",
+        "z": "709e0f0ed058ef22",
+        "g": "auth-group-public",
+        "name": "Inject Token manually",
+        "props": [
+            {
+                "p": "payload.access_token",
+                "v": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwNWhjS19HMmNwcjZCenQxU1VkdG95a3N4V1dYa1JUS3JidlBQZEdKXzljIn0.eyJleHAiOjE3NTk3NTkwNzYsImlhdCI6MTc1OTc1ODc3NiwianRpIjoiMWJjODk2NzYtOTQ2OC00MjA5LThmOWQtNzhmYWEwY2JkNmUzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL0dEUCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIyMzYzMTYxMi1jNjQ0LTRmYmMtYjUwYS0zZTBhYTcwOGJiMzUiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJnZHAiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLWdkcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImdkcCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwiY2xpZW50SWQiOiJnZHAiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImNsaWVudEhvc3QiOiIxNzIuMTcuMC4xIiwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LWdkcCIsImNsaWVudEFkZHJlc3MiOiIxNzIuMTcuMC4xIn0.jKRPIECuimU7gld5CUlXRVQKNOlatWjsU20ame_eep1aYg9DyS36nydV1nWn90hT0GF2mBXd_uP7nbB4wGNTB-HJdJk8CY7YAti-Bdu15gSknHEbGHdfed7tpuWOvLOm3QcS072idJWfSmQA4htKxr_hzxk3xnx6ZF9aAFFmtM0G3a4SXe9YJhlnk-dJwfeD_RXzzKyzXOd_b0Fdkq8ys6e5K5kvfTHq13bNSlWxBYvfSUTUXp9YG3LSDSXJSr-upS2fK02ou1XZ1JjXKYH0Lk_Qr1UQi2vni2jYzPXUW3lz9bpz_a2GIZhwU-sYXkkbglUCP4cNk_hqmKSgX1YmTg",
+                "vt": "str"
+            },
+            {
+                "p": "manual",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 800,
+        "y": 100,
+        "wires": [
+            [
+                "auth-handle-response"
+            ]
+        ]
+    },
+    {
+        "id": "2059c2144bdb52ad",
+        "type": "debug",
+        "z": "709e0f0ed058ef22",
+        "g": "auth-group-public",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 100,
+        "wires": []
+    }
 ]
