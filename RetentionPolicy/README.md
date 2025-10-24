@@ -5,7 +5,7 @@ Use the Retention Policy Flow to get information from the Retention Policy List 
 
 The flow will read the list from Sharepoint and use the active settings to read the specific list and delete all entries that are older then the chosen period
 
-![Retention Policy flow]([https://github.com/AnywhereNow/DialogueStudioFlows/blob/master/RetentionPolicy\resources/RetentionPolicy.png](https://github.com/AnywhereNow/DialogueStudioFlows/blob/master/RetentionPolicy/resources/Retentionflow.png))
+![Retention Policy flow](https://github.com/AnywhereNow/DialogueStudioFlows/blob/master/RetentionPolicy/resources/Retentionflow.png)
 
 ## How to download and import in Anywhere365 Dialogue Studio
 - use green download [Code] button, top right from [repository home](https://github.com/Anywhere365/DialogueStudioFlows) or
@@ -23,6 +23,7 @@ The flow will read the list from Sharepoint and use the active settings to read 
 
 ## Important to know 
 - in Azure you can also use the specific ReadWrite right and add the specific Sharepoint pages to this user
+
 
 
 
