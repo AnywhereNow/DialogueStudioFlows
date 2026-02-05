@@ -1,0 +1,229 @@
+[
+    {
+        "id": "333757e90ec3e95b",
+        "type": "tab",
+        "label": "EventBus UCC Enricher",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "df54246b48c31138",
+        "type": "group",
+        "z": "333757e90ec3e95b",
+        "name": "Stage 1 - Index UCC",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1568bc4a02b652a8",
+            "67eeace9d067f8bf",
+            "c59a7908b0021bc2",
+            "2bc8f4e2036e019c"
+        ],
+        "x": 94,
+        "y": 259,
+        "w": 852,
+        "h": 122
+    },
+    {
+        "id": "a467513a517f359c",
+        "type": "group",
+        "z": "333757e90ec3e95b",
+        "name": "Stage 2 - Enrich + Filter (Example use)",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "073e1a93e93fda40",
+            "cd51e127dc65de81",
+            "0829cb1e225f967e",
+            "a5e82cf2aa69027f",
+            "e834d5379a556874",
+            "46e128f586a822b0"
+        ],
+        "x": 94,
+        "y": 419,
+        "w": 1152,
+        "h": 122
+    },
+    {
+        "id": "1568bc4a02b652a8",
+        "type": "any-red-event-bus",
+        "z": "333757e90ec3e95b",
+        "g": "df54246b48c31138",
+        "name": "EventBus In: Dialogue Started/Ended",
+        "config": "",
+        "filtertype": "DialogueStartedEvent,DialogueEndedEvent",
+        "x": 270,
+        "y": 340,
+        "wires": [
+            [
+                "67eeace9d067f8bf"
+            ]
+        ]
+    },
+    {
+        "id": "67eeace9d067f8bf",
+        "type": "function",
+        "z": "333757e90ec3e95b",
+        "g": "df54246b48c31138",
+        "name": "Dialogue UCC Indexer",
+        "func": "/**\n * Dialogue UCC Indexer\n * ---------------------\n * Purpose:\n *   Maintain a simple global (in-memory) mapping from a dialogueId -> uccName.\n *   This allows later events that do NOT contain uccName to be enriched.\n *\n * Expected input shape:\n *   msg.payload = {\n *     eventType: \"DialogueStartedEvent\" | \"DialogueEndedEvent\" | ...,\n *     event: {\n *       dialogueId: string,\n *       uccName?: string,\n *       ...other fields\n *     }\n *   }\n *\n * Global context keys:\n *   dlgUcc:<dialogueId> => { uccName: string }\n *\n * Notes:\n *   - This is an in-memory cache. If Node-RED restarts, it resets.\n *   - We only clear the mapping on DialogueEndedEvent.\n */\n\nconst payload = msg.payload || {};\nconst ev = payload.event;\nconst type = payload.eventType;\n\n// If the message is not in the expected shape, just pass it through.\nif (!ev || !ev.dialogueId) return msg;\n\nconst dialogueId = ev.dialogueId;\nconst key = `dlgUcc:${dialogueId}`;\n\n// When a dialogue starts, capture the uccName if present.\nif (type === \"DialogueStartedEvent\") {\n  if (ev.uccName) {\n    // Store only what we need; keep the record extensible for the future.\n    const rec = global.get(key) || {};\n    rec.uccName = ev.uccName;\n    global.set(key, rec);\n  }\n  return msg;\n}\n\n// When a dialogue ends, remove the cached mapping.\nif (type === \"DialogueEndedEvent\") {\n  // Node-RED global context does not have a delete API; setting undefined clears it in practice.\n  global.set(key, undefined);\n  return msg;\n}\n\n// Optional behavior:\n// If other dialogue-scoped events pass through and happen to contain uccName,\n// we can refresh the cached value.\nif (ev.uccName) {\n  const rec = global.get(key) || {};\n  rec.uccName = ev.uccName;\n  global.set(key, rec);\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 340,
+        "wires": [
+            [
+                "c59a7908b0021bc2"
+            ]
+        ],
+        "icon": "node-red/file-in.svg"
+    },
+    {
+        "id": "c59a7908b0021bc2",
+        "type": "debug",
+        "z": "333757e90ec3e95b",
+        "g": "df54246b48c31138",
+        "name": "Debug: Indexer output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "2bc8f4e2036e019c",
+        "type": "comment",
+        "z": "333757e90ec3e95b",
+        "g": "df54246b48c31138",
+        "name": "TODO: Configure UCC config",
+        "info": "",
+        "x": 240,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "073e1a93e93fda40",
+        "type": "any-red-event-bus",
+        "z": "333757e90ec3e95b",
+        "g": "a467513a517f359c",
+        "name": "EventBus In: Participant Added/Queue Entered",
+        "config": "",
+        "filtertype": "DialogueParticipantAddedEvent,DialogueQueueEnteredEvent",
+        "x": 300,
+        "y": 500,
+        "wires": [
+            [
+                "46e128f586a822b0"
+            ]
+        ]
+    },
+    {
+        "id": "cd51e127dc65de81",
+        "type": "debug",
+        "z": "333757e90ec3e95b",
+        "g": "a467513a517f359c",
+        "name": "Debug: Enriched + filtered output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "0829cb1e225f967e",
+        "type": "switch",
+        "z": "333757e90ec3e95b",
+        "g": "a467513a517f359c",
+        "name": "Filter UCC",
+        "property": "payload.event.uccName",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ucc-name-example",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 500,
+        "wires": [
+            [
+                "cd51e127dc65de81"
+            ]
+        ]
+    },
+    {
+        "id": "a5e82cf2aa69027f",
+        "type": "comment",
+        "z": "333757e90ec3e95b",
+        "g": "a467513a517f359c",
+        "name": "TODO: Configure UCC config",
+        "info": "",
+        "x": 240,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "e834d5379a556874",
+        "type": "comment",
+        "z": "333757e90ec3e95b",
+        "g": "a467513a517f359c",
+        "name": "TODO: Configure UCC name",
+        "info": "",
+        "x": 880,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "46e128f586a822b0",
+        "type": "function",
+        "z": "333757e90ec3e95b",
+        "g": "a467513a517f359c",
+        "name": "Dialogue UCC Enricher",
+        "func": "/**\n * Dialogue UCC Enricher\n * --------------------\n * Purpose:\n *   Ensure msg.payload.event.uccName is present for dialogue-scoped events.\n *\n * How it works:\n *   1) If the incoming event already has uccName -> do nothing.\n *   2) Otherwise, look up uccName from the global cache created in Stage 1\n *      (key: dlgUcc:<dialogueId>).\n *   3) If found, inject it into msg.payload.event (without mutating other fields).\n *\n * Notes:\n *   - If the cache is missing (e.g., Node-RED restart, or start event never observed),\n *     this node simply passes the message through unchanged.\n */\n\nconst payload = msg.payload || {};\nconst ev = payload.event;\n\n// If the message is not in the expected shape, pass through.\nif (!ev || !ev.dialogueId) return msg;\n\n// If uccName is already present, we don't need to enrich.\nif (ev.uccName) return msg;\n\nconst key = `dlgUcc:${ev.dialogueId}`;\nconst rec = global.get(key);\nconst uccName = rec && rec.uccName;\n\n// If we don't have a cached uccName, pass through unchanged.\nif (!uccName) return msg;\n\n// Create a new payload object so downstream nodes see the enriched value.\nmsg.payload = {\n  ...payload,\n  event: {\n    ...ev,\n    uccName\n  }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 500,
+        "wires": [
+            [
+                "0829cb1e225f967e"
+            ]
+        ],
+        "icon": "node-red/file-out.svg"
+    },
+    {
+        "id": "43a4bb07622d6086",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "anywherenow-red": "1.0.0"
+        }
+    }
+]

@@ -12,9 +12,11 @@ A curated set of **ready-to-use example flows** for [AnywhereNow Dialogue Studio
 | `DefaultUCCsimple_solution/` | Minimal **UCC** setup; a baseline flow to start a new project quickly. |
 | `DynamicsOnlineintegration/` | **Microsoft Dynamics 365** online: auth, contact/case creation, activity logging. |
 | `DynamicsPutTranscriptandRecordinginActivity/` | Attach **call transcripts and recording links** to a Dynamics activity. |
-| `Eventbus2SQLwidetable/` | Persist **Event Bus** events to a **SQL “wide” table** for reporting/BI. |
+| `EventBusUCCEnricher/` | Attach **uccName** to events that don't have them. | 
+| `GenericDialogueProviderTemplate/` | A **kickstart blueprint** for integrating with the AnywhereNow Generic Dialogue Provider (GDP) from Dialogue Studio. |
 | `HistoryACDC/` | Examples around **ACD** history and callback/continuity patterns. |
 | `QMMonitorQuestion/` | Capturing **Quality Monitoring (QM)** inputs for later analysis. |
+| `RetentionPolicy/` | The Retention Policy Flow to get information from the Retention Policy List in your Sharepoint UCC settings page |
 | `Salesforceintegration/` | **Salesforce**: auth + common object ops (Contact/Case/Task). |
 | `SentimentAnalysisAzureBasic/` | **Azure Cognitive Services** sentiment scoring + branching. |
 | `TranscriptTodebug_minimal/` | Smallest **transcription debug** flow for troubleshooting STT/latency. |
